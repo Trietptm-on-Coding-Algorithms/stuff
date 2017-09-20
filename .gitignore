@@ -1,0 +1,6 @@
+.svn
+*.pyd
+*.c
+build
+*.idea
+*.vscode

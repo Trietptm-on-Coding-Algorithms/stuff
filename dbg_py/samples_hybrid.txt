@@ -1,0 +1,1980 @@
+﻿192.168.1.51 --> C0 A8 01 33
+192.168.1.74 --> C0 A8 01 4A
+
+# ---------------------------------------------------------------------------
+# RAT
+
+adWind - N
+Adzok
+Albertino
+AlienSpy
+Arcom
+BlackNix
+BlackShades - 1
+BlueBanana
+Bozok
+ClientMesh
+Crimson
+CyberGate - 1
+DarkComet - 3
+darkddoser
+DarkRAT
+Gh0st
+Greame
+HawkEye - 3
+JavaDropper
+jRAT - N
+jSpy - 1
+LostDoor
+LuxNet
+NanoCore
+njRat - N
+Pandora
+PoisonIvy - 2
+PredatorPain
+Punisher
+QRat - N - XX
+Sakula
+ShadowTech
+SmallNet
+SpyGate
+Tapaoux
+TEMPLATE
+unrecom
+Vantom
+VirusRat
+Xena
+xRat
+Xtreme
+
+
+31A6EC02E8CBE8A94159160DEA316B44 -
+                                 -
+                                 - hybrid:
+                                 -
+
+0BA4E655C5043C786BCB23C7918D4D9E -
+                                 -
+                                 - hybrid:
+                                 -
+
+54838B985B328E47BA5892578B6B9BEA -
+                                 -
+                                 - hybrid:
+                                 -
+
+84B1547AF396C7BA612AC4D75279F5D3 -
+                                 -
+                                 - hybrid:
+                                 -
+
+E569CB081B629728F635929F266367B4 -
+                                 -
+                                 - hybrid:
+                                 -
+
+842E9C0D5264132A1B7403B5DEF000DA -
+                                 -
+                                 - hybrid:
+                                 -
+
+D9BE0C11094AD4792BD34DFC94EE8F64 -
+                                 -
+                                 - hybrid:
+                                 -
+
+40B7C59ADEB22020833AD60FBACD19C5 -
+                                 -
+                                 - hybrid:
+                                 -
+
+0A55B1B58EDC5675C4573B9B73B5CE62 -
+                                 -
+                                 - hybrid:
+                                 -
+
+30DF96F150A703770B3193D708408DDB -
+                                 -
+                                 - hybrid:
+                                 -
+
+7D59DC134C113FC2B1CE870FF09E1E1D -
+                                 -
+                                 - hybrid:
+                                 -
+
+51715A0E54CD7231E10EF3C80B5EE7A7 -
+                                 -
+                                 - hybrid:
+                                 -
+
+E888DE6D59691ABD90F6BC0BA7176B10 -
+                                 -
+                                 - hybrid:
+                                 -
+
+628F8166403CA1EC00ACD6BFE85E9221 -
+                                 -
+                                 - hybrid:
+                                 -
+
+9DEC87486E91012DFC59BE34C9E2398A -
+                                 -
+                                 - hybrid:
+                                 -
+
+060518FD4854B18B9AB2CB63EFAEBC5E -
+                                 -
+                                 - hybrid:
+                                 -
+
+755C88A3E7698294CFD6B563D78D48AB -
+                                 -
+                                 - hybrid:
+                                 -
+
+6044BA604BB80AA7D9AD6DBFD9CADACA -
+                                 -
+                                 - hybrid:
+                                 -
+
+91D06F18EC643D4E0A608EE4EEB7BEEB -
+                                 -
+                                 - hybrid:
+                                 -
+
+6DEDFCC89EDFC8187415EA0A144E1B01 -
+                                 -
+                                 - hybrid:
+                                 -
+
+81F92147C2D2100EE53EBC844CBC0745 -
+                                 -
+                                 - hybrid:
+                                 -
+
+BA7C6286B0568F18F149B5DC0DC4EAC7 -
+                                 -
+                                 - hybrid:
+                                 -
+
+B27E4E2748746C2484E6EFDEAAB33963 -
+                                 -
+                                 - hybrid:
+                                 -
+
+0641D14BA001CFC951A6D74DCC2DAC06 -
+                                 -
+                                 - hybrid:
+                                 -
+
+D073166E5D16B4C183AD7C8BE0F33B50 -
+                                 -
+                                 - hybrid:
+                                 -
+
+E240931B5CFFC5D206F867A73F280457 -
+                                 -
+                                 - hybrid:
+                                 -
+
+7E6D43BAA8A7CD7A5A907CE92A49F67A -
+                                 -
+                                 - hybrid:
+                                 -
+
+2939BC31B767B4BBDA0F9C17E3702314 -
+                                 -
+                                 - hybrid:
+                                 -
+
+C6814F72AAF54675D7EFDEF13967D956 -
+                                 -
+                                 - hybrid:
+                                 -
+
+B91E1B4A56094F521E2547F1830D48B4 -
+                                 -
+                                 - hybrid:
+                                 -
+
+DEB65EC3834BC8CEE0A8038169370F67 -
+                                 -
+                                 - hybrid:
+                                 -
+
+DCF9E3BFFA0EBC4C0940D6663476B090 -
+                                 -
+                                 - hybrid:
+                                 -
+
+D537ACB8F56A1CE206BC35CF8FF959C0 -
+                                 -
+                                 - hybrid:
+                                 -
+
+# ---------------------------------------------------------------------------
+# github rat
+
+https://github.com/fabrimagic72/malware-samples
+//samples
+
+https://github.com/malwares/Remote-Access-Trojan	源码
+https://github.com/malwares/DangerousZone  大部分都是源码
+https://github.com/malwares/Botnet         大部分都是源码
+https://github.com/malwares/Crypter        大部分都是源码
+
+RATDecoders	https://github.com/kevthehermit/RATDecoders	None	rat	Python	None	a collection of Python Scripts that will extract and decode the configuration settings from common rats.
+
+basicRAT	        https://github.com/vesche/basicRAT	            None	rat	Python	None	a Python RAT (Remote Access Trojan), basicRAT was created to maintain a clean design full-featured Python RAT. Currently a work in progress and still being hacked on.
+//功能少
+
+CaptureBAT-client	https://github.com/ph0sec/CaptureBAT-client	    None	rat	C	None	Capture allows to find malicious servers on a network
+//生成失败
+
+OmenRAT	            https://github.com/kaonashiHF/OmenRAT	        None	rat	Python	None	python rat
+//没功能
+
+pupy	            https://github.com/n1nj4sec/pupy	            None	rat	Python	None	multi-platform (Windows, Linux, OSX, Android), multi function RAT (Remote Administration Tool) and post-exploitation tool mainly written in python
+
+QuasarRAT	        https://github.com/quasar/QuasarRAT	            None	rat, dotnet	C#	None	rat
+//发送的数据包都是把类序列化，用Python不好表示
+
+Stitch	            https://github.com/nathanlopez/Stitch	        None	rat	Python	None	A Cross Platform Python Remote Administration Tool
+//Python，还没尝试编译
+
+trochilus	        https://github.com/5loyd/trochilus	            None	rat	C	None	A fast&free windows remote administration Tool
+//生成失败
+
+ultravnc	        https://github.com/zealotous/ultravnc	        None	rat	C	None	VNC is a great and famous remote controle, multi-OS tool
+XtremeRAT	        https://github.com/Shibe-Doge/XtremeRAT	        None	rat	Pa	None	rat
+
+BetterRAT	        https://github.com/Malware-Src/BetterRAT	    None	rat	VB	None	BetterRAT is InfinityRAT(DiamondRAT) Based Next Generation RAT
+//以从pastebin下载的bin为模板，这个只是控制端
+
+rat-shell	        https://github.com/stphivos/rat-shell	        None	rat	C#	None	Windows Remote Access Trojan (RAT) using .NET Sockets
+//这他妈是个啥
+
+TheFatRat	        https://github.com/Screetsec/TheFatRat	        None	rat, exploit	C	None	An easy tool to generate backdoor with msfvenom (a part from metasploit framework)  and easy tool to post exploitation attack like browser attack,dll
+
+
+https://github.com/ubbelol/uRAT
+//依赖2个库
+
+
+https://github.com/Leurak/TrollRAT
+//Native的编译失败了
+
+
+https://github.com/ilikenwf/DarkAgent
+//编译错误
+
+# ---------------------------------------------------------------------------
+# 主流
+
+1F0C227ABE77B4FD3F04BAE18F3F742E - NO - 错误的退出调用栈
+										LCG       : NO
+										pydbg_ori : -
+								 - 自修改 - ??
+                                 - hybrid: 158.69.209.193:443/...
+								 - 有价值
+								 - 这东西必然是由生成器处理过
+                                 - 定位到了关键模块(入口下硬断)，但是dump出来的不完整，导入表什么的没法重建，遍历也没有内容
+								 - 需要修复PE
+								 - 需要工具辅助
+
+158BA56AC0DD2B6217F1D8D51C97BA23 - OK
+                                 - C/C++
+								 - hybrid: 84.200.69.80
+								 - 有价值
+                                 - 功能缺失 - 手动加载的PE头被干掉了，结构可能是自己定义的
+								 - 远控 - 通信数据加密，函数是动态的，不能patch
+								 - 静态分析完毕，在10004266下硬断开始动态分析
+								 - 继续跟进
+
+667989FFA5E77943F3384E78ADF93510 - NO - 错误的退出调用栈
+                                 - C/C++
+								 - hybrid: app.lehigtapp.com
+								 - 有价值
+								 - 将样本拷贝为WerFaultSecurers.exe，然后加载shell32.dll时自动加载之 - 把自己从模块列表中去掉了
+								 - ShellCode --> 堆栈 --> 堆
+								 - 功能缺失 - 在堆栈上面执行的监控
+								 - 自定义的PE头，手动加载
+								 - 需要重建PE
+								 - 必须要工具辅助
+
+
+B21B6ECBD46D2BFA6C4A68BC54F5AFE3 - OK
+                                 - MFC
+								 - hybrid: None
+								 - 注入
+                                 - 功能缺失 - 分析出纯MFC程序的main函数
+	F41563F113527C304A3A45B0A48080E3 - ??
+	                                 - 窃密
+	                                 - 功能缺失 - 花指令，手动去的
+	                                 - 已提交
+	B4B9FE5E5C80FE43B1AE0892354CBAF3 - OK
+	                                 - MFC
+									 - DDoS
+									 - 灵活的patch/SleepEx -  通过剪切板来通信
+	                                 - 已提交
+
+B18DE7489197BA6BA36C35DBF368CBFB - OK
+                                 - MFC
+                                 - hybrid: None
+	A9F014F7496468548271F35115597F2E - OK
+	                                 - 自修改
+									 - hybrid: None
+									 - 勒索软件 - Spora
+									 - 功能缺失 - 后面忽略的API有可能会导致异常退出
+									 - 继续跟进 - 可以出报告，但是不会出特征
+	A23329FE9658882193D8CC4A95A73176 - OK
+	                                 - 条件不满足
+									 - 打开explorer.exe进程失败
+									 - 注入代码，用于执行释放的DLL?
+		81E21779A64DF7F109470C963E6B2E1F - ??
+		                                 - UPX - C/C++ - DLL
+		                                 - 功能缺失
+										 - 只是用来创建进程而已
+	B46DD7B7403A9D0B9D102848A9CCBCC0 - NO - 错误的退出调用栈
+	                                 - MFC
+									 - DDoS
+	                                 - 跟上边儿那个DDoS差不多
+									 - 重复
+
+44202837EE9DEA5555CFD9D0C56BD483 - OK
+                                 - C/C++
+                                 - hybrid: adtejoyo1377.tk
+								 - 功能缺失 - 解析设置的剪切板内容
+	6AEE43D74D2850B92F9E6A68F22A82CC - OK
+	                                 - C/C++
+									 - hybrid: vk.com/adtejoyo1377.tk
+									 - 有价值
+									 - Shifu 银行木马 - 有分析报告(http://bobao.360.cn/learning/detail/3398.html)
+	                                 - 功能缺失 - 反调试(LCG也不行) - 反虚拟机
+											    - 字符串加密，什么是用什么时候解密
+											    - 把父进程python.exe给杀掉了，然后就没有然后了
+									 - 功能缺失 - 交叉引用调用字符串解密函数
+									 - 执行下面的DLL
+		E5F71B3044571BBD19F9D12E43446F9A - NO
+		                                 - 自修改
+										 - 功能缺失 - DLL
+										 - 有价值
+										 - 导入表混淆，需要修复。然而，俺还不会
+
+2A8C4B107C6DEF3BD3E6588C713D7059 - NO - 错误的退出调用栈
+                                 - 带符号
+                                 - hybrid: None
+								 - 调试会有异常弹框
+	3258F733ADF53DF06602D94205385BCF - NO - 直接运行的条件不满足，会一直运行ShellCode，不退出
+	                                 - MFC
+									 - 基址: 0x200000
+									 - 直接运行释放的，在ShellCode中会判断失误。需要运行原始样本，然后动态附加。否则就是循环第1层ShellCode
+									 - 2层ShellCode
+									 - 这个类似的很久以前分析过，ShellCode很麻烦，就不再深入分析了，直接看衍生物
+		4B9E1C70EE0C245BC1A0B0F00913025C - NO - DLL
+		                                 - UPX - Borland C++
+										 - 命令处理函数不能F5，需要patch
+										 - 可以继续跟进，但是比较恶心，最好有工具辅助
+			D2D8A3631924504425C2EB1E677B8175 - ??
+			                                 - UPX - MFC
+											 - DDoS
+											 - 重复
+
+8EF438D5CD43F860D09A7693DC2536D1 - OK
+                                 - MFC
+                                 - hybrid: None
+								 - 基址: 0x200000
+								 - hybrid有可疑URL，可能执行环境有要求
+								 - XP上弹窗，在Win7分析看看，或者工具查看执行路径，找路径分割点
+
+
+F0F60D61EBCDF6E481973C1426FFD0EF - ??
+                                 - 不能 dbg.hide_debugger()
+                                 - hybrid: r6---sn-h0j7sn7z.gvt1.com
+								 - XX
+
+105A45B43EABFDEC1DADB355AAEF4E10 - ?? - 不动了 - 带窗口，先过
+                                 - hybrid: None
+
+0DACE93A515739C9EB367078D7D5C86B - OK
+                                 - hybrid: adtejoyo1377.tk
+	EFA571F82B889FDD9D0212873C71BEBB 重复
+
+038D814EC0EFA4A8CE3FE3E90EF0D26B - ?? - 不停止，而且进程列表中都没这个进程了 - 有价值 - 没有搞到真实有效的PE - 有难度，先过
+								 - hybrid: kjfjdehfjonglfdgm.in/...
+
+BBD2A8CF9766BBB1E12A7EE0FA1C8AC7 - NO - 错误的退出调用栈
+						         - hybrid: None
+	57B1CF24BAD7B5390620440850377524 OK - 貌似是需要命令行的?
+
+C926AAA840B173AC3D83565911BF8BC5 - VMP - 过
+						         - hybrid: ocsp1.wosign.com/...
+
+1F8696488EE5B69663477172F4F53945 - ?? - 不停，循环读文件 - hybrid无网络行为，先过
+                                 - hybrid: None
+
+DE1AFBB39C88E9BFEA0A601466973E16 - ?? - 不退出
+								 - hybrid: zijugartu9eri.k948fsoahvnzyxe.com/...
+	651FA231378060E192749F7C2A37C559 - ?? - 错误的退出调用栈 - 勒索软件 - 异常原因不明
+	                                 - XX - pydbg还可以抢救一下
+
+
+								 
+
+B7E04A8045B352D540FEE13901A2FA7E - ?? - 重复
+				                 - hybrid: 10.100.168.192.in-addr.arpa
+4F8F963DDCA829326EF3F4279C29DD73 - ?? - 重复
+                                 - hybrid: edunans.zapto.org
+
+E90F2255F7E8A8F6FC613BCE58FE5C0D - OK - 有界面，没见到恶意行为，放过
+                                 - hybrid: 84.200.69.80:53
+
+1EA07053F68A1B64F30BE95526860B95 - NO
+                                 - 不支持XP，最低Vista，放弃
+                                 - hybrid: 8.8.247.36:443/192.99.108.183:2223/...
+
+294A1939ADFF826223ECC8AE41F3C1D8 - OK
+                                 - 有界面，没见到恶意行为，放过
+                                 - hybrid: None
+
+0A9AE7FDCD9A9FE0D8C5C106E8940701 - ?? - 停止了 - NullSoft - 功能缺失 - 被调试模块应该包含释放的DLL - 先放过
+                                 - hybrid: sinfulcelebs.freesexycomics.com
+
+14A3694C8A8F5CF537065A392074B1A3 - NO - DLL，无效PE
+                                 - hybrid: None
+
+08D84324539BF8097316DEA95D29F8C6 - NO - 错误的退出调用栈 - LCG不退出 - 从栈上过去的
+                                 - hybrid: europe.pool.ntp.org/...
+	D86F5E5C5877D8C952CA60B95E522243 - 有点儿复杂 - 放过
+
+4DE6D959B2092048B07AB1EBF8A9FCAF - DLL - 放过
+                                 - hybrid: None
+
+4496CDFA3E6782F88C4D722C8ECB5A0E - ?? - 不停 - 连接不上 - 有花，要么把花去了，要么一点一点看
+                                 - hybrid: None
+								 - XX - 混淆的厉害，需要做比较多的手动工作
+
+9515B9727C7DF6900DA2C78934B81DC0 - ?? - 不停 - 文件格式识别错误，资源什么的无法读取 - 超级长的退出调用栈 - 有价值 -
+                                 - hybrid: None
+	96427ADCF1335DF3434F3126C371D975 - ?? - 不停 - 一直在 lstrcmpA ，这是在找导出表呢吧
+		761995B80564540DE6DF222A9939D751 - ?? - 功能缺失 - DLL，带导出函数DllRegisterServer
+		                                 - XX - IE插件？
+
+38DE3BA7318D346A4E89EB105CAC48E0 - ?? 错误的退出调用栈 - 黑客工具 - 改版的nc.exe？
+                                 - hybrid: None
+								 - XX - 主模块还没弄出来呢
+
+D41C7471C1BC576C53D3BCDB7913B15F - ?? - 不是有效的Win32
+                                 - hybrid: None
+
+0131E96FF74B73E3FD58BAB4A72A6C39 - ?? - 貌似是重了
+                                 - hybrid: protocolzero.zapto.org
+
+
+4C7FD8FA7BD4AC432254A76D600355BC - 貌似是什么工具 -
+                                 - hybrid:
+
+4F7AE5B736A79E6B84C6EAE7A504C3F9 - 貌似是某个东西的一个组件 -
+                                 - hybrid:
+
+143C3568525933C3F129860334FEC440 - NO - 错误的退出调用栈
+                                        - 去掉cbk都不行
+										- LCG正确
+                                 - C/C++
+                                 - hybrid: - 84.200.69.80
+								 - 花指令 -
+								 - 后续跟进：需要去掉花指令的脚本
+
+E16EC0155AA9B457C86F51C705A9B07E - OK
+                                 - 自修改
+                                 - hybrid: trafcounters.com
+								 - 花指令
+								 - 花指令很麻烦，要去掉
+	D13D88B27887A5BA9C00DBE309873298 - api调用看不出来，每次都是动态获取，所以静态分析有点儿麻烦
+	                                 - 动态方面，创建进程很可疑，可是创建进程之后呢...?
+
+158D0B45E928B90FB5A079236E8791AA - OK
+                                 - 自修改
+                                 - hybrid: 84.200.69.80:53
+								 - 有点熟悉的感觉
+
+713BC0DF3CD29D7316245B8A1FDBC41A - MFC - 错误的退出调用栈
+                                 - hybrid: None
+
+1A7C68936D2CBAE0AC9D0C5DBF8C595B - 跟上边儿的重了 -
+                                 - hybrid:
+
+452EEAFA08927FE2AD4C6F653419315A - 自修改 - 不停
+                                 - hybrid:
+
+16D9524258624A89BC2CAA624A1DEB02 - 自修改 -
+                                 - hybrid: None
+								 - 啥都没有 - 是执行条件不满足吗？ - 花指令
+
+B94760FB7C97A2D9E2B06F6DF0247487 - 自修改 - 熟悉的花指令
+                                 - hybrid: jremaxx145.info
+								 - 需要脚本自动去除花指令
+								 - 重复
+
+A9707B8C1B06667610C5E6DFADD57DC0 - FreeBASIC -
+                                 - hybrid:
+
+07390603E4722C8B854B6D31EE6517E8 - 未知编译器 -
+                                 - hybrid:
+
+70100F98A857FCBADABA1095D8C6F833 - 熟悉的花指令 -
+                                 - hybrid:
+
+81B131A6EC571D1AC38605AB06D6C7C3 - DLL - 花指令很熟悉
+                                 - hybrid:
+5C42FACEF9E66EBCAB5CF0A60BA0E112 - DLL - 花指令很熟悉
+                                 - hybrid:
+
+34A9E8EA8771818A33857B32696F5A02 - ASprotect -
+                                 - hybrid:
+708F5CCB9087861C67C114CAD0CAD6DD - ASprotect -
+                                 - hybrid:
+D41188EA1357E7748764118CD4AFEC8E - ASprotect -
+                                 - hybrid:
+8A20C78759566C015C5C2F44E5DC17D1 - ASprotect -
+                                 - hybrid:
+C58A9214EAD2CC7CFABE6CAD1B6326FF - ASprotect -
+                                 - hybrid:
+
+DDA26B3097F5DA7A5EEF65F517BB750E - 重复 -
+                                 - hybrid:
+F24638B3CB8CD48321A5D1806E6AF7C7 - 重复 -
+                                 - hybrid:
+BA6C3A2F0F669819EF8F7EE92DAD9D43 - 重复 -
+                                 - hybrid:
+
+# ---------------------------------------------------------------------------
+
+50233422DC6D6C9BC3E124379C9F9422 - Nullsoft -
+                                 - hybrid:
+
+F627CBD68A2C077021F0A9AD90474359 - Neolite -
+                                 - hybrid:
+
+146EE68D8DBF65A2EEB02EB53BB3B180 - TMD -
+                                 - hybrid:
+
+3A495A0DC82374CB6BF7D70DAC9B69FB - UPX -
+                                 - hybrid:
+
+4666F1132B373530C1F2113D1F10CFF5 - Binder? 这是什么? -
+                                 - hybrid:
+
+E7647EE806057A32A3D9993F4CA03B20 - Enigma -
+                                 - hybrid:
+
+DAFD01A1453A508A8394835D30ABFC62 - 这是个啥 -
+                                 - hybrid:
+
+384E46BBFDD6C0251950AEC16EA86CDC - 这是个啥 -
+                                 - hybrid:
+
+D1C648D9DBBB36CD9DBCC1CE7B581921 - 这是个啥 -
+                                 - hybrid:
+
+D5E6295CF0D2CA6AC6B052B2A5A9C7B3 - Enigma -
+                                 - hybrid: evcs-crl.ws.symantec.com
+								 - pydbg出异常，正常跑没问题
+								 - 后来从进程列表中消失了
+								 - 伪装成.NET??
+								 - 这TMD是个啥啊。。行为好多.....
+
+
+
+# ---------------------------------------------------------------------------
+
+# ---------------------------------------------------------------------------
+# .NET
+
+
+F1DC547DF1A6AC6F1A227993E9923647 - j - 无混淆
+335D864CC7110CC3FB52D407418F6BF2 - j - 无混淆
+B156E858BA83DD5B159E37A6D3075CC1 - j - 无混淆
+856C0A66CA8BEFFE52D865F1FA47B8DB - j - 无混淆
+2821B946757C44058F01AC3C517549C8 - j - 无混淆
+E65AA8CC4444EFECBE824E86AFF64C94 - j - 无混淆
+9D993D308D0BFCF9417893048D0C7E9A - j - 无混淆
+F51309374E20B3C080238CF872864FB6 - j - 无混淆
+46DD7D33EF36B9DE04CF64F923E08037 - j - 无混淆
+                                 - hybrid: None
+								 - |'|'| 分隔符
+								 - 重复
+
+BB9E95FBD1F98145E7E2CA61DE8D7340 - Enquiry - 轻微名称混淆
+                                 - hybrid: labibeautyparlour.ddns.net
+								 - 加载的货色
+	03501E35C8D6B711057D63A0CA0A18B1 - .NET - OlympicWorker - 名称混淆
+	                                 - 内容不算太多，最好有可以自动重命名的工具
+									 - XX
+
+https://github.com/kevthehermit/RATDecoders
+CC7498C7830AE09200CF20D3CDD9505D - NanoCore RAT
+3B31D7E2944F0D3256F6845D02655DA8 - NanoCore RAT
+7F09F998A89159C17F0699CF4EE866B6 - NanoCore RAT
+30324DCACCB31F195BA3AF3DBB4E6766 - NanoCore RAT
+B3571E0FBE432C7DDCA3890D7BA35BA0 - NanoCore RAT
+3F3DBBED9123BF262CC2E05BDE9F992F - NanoCore RAT
+40AD54B3ED125EE04F0ADC0B619AA33C - NanoCore RAT
+                                 - 混淆
+								 - de4dot有效 - Class*N
+								 - XX
+
+9AED2117B863781C082D69CDA8745CCC - ForceOp - 名称混淆
+                                 - hybrid: chromatwo.ddns.net
+								 - 加载的货色
+	1CEF7A2CB3414DCD4F4CDD4EA20E8383 - .NET - DLL - cxrzf - 名称混淆
+	                                 - 貌似只是拷贝文件到别的地方去执行
+	13F5BD926B3CBBFC39C40521B834F831 - .NET - NanoCore Client - 名称混淆
+	                                 - 重复
+
+F482A4DBE032B40C3F66DEE7E1B895CC - ClassLibrary1 - 无混淆
+92D8E5BBD791379E51160AFF4935563E - ClassLibrary1 - 无混淆
+A9A8562175A22AF3F90F4A87683CB7AE - ClassLibrary1 - 无混淆
+                                 - hybrid:
+								 - |'|'| 分隔符
+								 - 重复
+
+12FAB0536DD4FACB33755F059C525915 - PayPal RegChecker - 无混淆
+                                 - hybrid:
+								 - XX - 下载者，可以写报告了 - 貌似还有蠕虫，有HTTP的东西
+								 - 不是有效的Win32
+								 - dnspy解析资源卡死
+
+B9315FF15BE267FFAFFBDAAB734B9FF2 - xlsx - 无混淆
+                                 - hybrid: aaa1.ddnsfree.com
+								 - 加载的货色
+	FF162DF992105EBEB55FFB1AF968599B - .NET - w - 无混淆
+	                                 - |'|'| 分隔符
+									 - 重复
+
+D98E3BA8BF42DE780A67FDE002FE9028 - Laecygae - 名称混淆 - de4dot有效 - Class*N+名称混淆
+								 - hybrid: files.catbox.moe
+								 - 需要去掉混淆
+
+C26F551CE172477001E11BB2947FADCC - Lovoqaecigy - 轻微名称混淆 - de4dot有效 - Class*N+名称混淆
+                                 - hybrid: backupy.ddns.net
+								 - 需要去掉混淆
+
+7462066E70776B170FB68A7BC15862C9 - data - 混淆
+                                 - hybrid: soft1234.hopto.org
+								 - de4dot有效 - Class*N
+6A3B385C202613ED7682D2D621E2B814 - Kaemaewusibihae - 混淆 - de4dot有效 - DLL
+                                 - hybrid: 173.254.223.86
+985554E0A4A3F81A4A33AAF590267BAC - Testador de Ccs 2017 - 混淆 - de4dot有效
+								 - hybrid: net-combo.serveblog.net/...
+A7D187C590D59B232538AF954E3F58E8 - emplye ids - 混淆 - de4dot有效
+								 - hybrid: soft123.ddns.net
+39F1A6252A8885138FD8CD3AFE86049C - new login - 混淆 - de4dot有效
+								 - hybrid: soft1234.ddns.net
+B35B54A2B20140ACC71CF437D7F4CB57 - asad - 混淆 - de4dot有效
+								 - hybrid: soft1234.ddns.net
+8DB38CC83A884C1335917A7882E7F5DA - ManyCam-PhotoSnap-25-03-2017-0000-00                .jpg - 混淆 - de4dot有效
+                                 - hybrid: visual-design.ddns.net:1177
+812B9CD8FAADCD3D484962458C29A27C - deta - 混淆 - de4dot有效
+							     - hybrid: soft1234.ddns.net
+
+72ACF0B26A6C36FCC810CAE864471022 - Docx - 混淆
+								 - hybrid: aaa1.ddnsfree.com
+								 - de4dot有效 - Class*N
+								 - 要去掉很多人工导致的异常
+
+56E21912A26D744FB96F5F9F32391F18 - Cisco Vpn - 混淆
+								 - hybrid: jazz.freeddns.org
+								 - de4dot反混淆之后文件损坏了
+
+440EEE73188A83C2B72CE5F750731347 - WindowsEZ- 混淆
+                                 - hybrid: evcs-crl.ws.symantec.com/...
+								 - de4dot有效 - Class*N
+								 - 加载的货色
+	1C63861802562AEAEC25C624AC52D9AB - .NET - DLL - 混淆
+	                                 - 需要解决问题: 用去混淆的内容替换混淆的内容，会导致异常
+
+038FD4C91E8719DA69C5B1F424FF3B6C - kz4 - 混淆
+								 - hybrid: nomscogroup.ga
+								 - de4dot有效 - Class*N
+								 - 需要去掉混淆
+
+0356CC2F372FE64625E9F05BCC453875 - Bevawukae - 混淆
+                                 - hybrid: 185.84.181.87
+								 - de4dot有效 - DLL
+
+.NET - 混淆 - de4dot无效
+0B3D87B33E10767613086E9CF4D9D199 - d - 混淆 - de4dot无效
+								 - hybrid: hellothere.publicvm.com
+087DEFA3B01654737E37AC91941B2D41 - sdlgih - 混淆 - de4dot无效
+								 - hybrid: evcs-crl.ws.symantec.com/evcs-ocsp.ws.symantec.com
+DD20DA4EA724186457B0F8946614B8C5 - RvSGxBA - 混淆 - de4dot无效
+								 - hybrid: alexcos.noip.me
+DF7CE8E0BADE98E6CA872543D7710D81 - Gaenaby - 混淆 - de4dot无效
+								 - hybrid: ceo.zapto.org
+AE3ADCC482EDC3E0579E152038C3844E - Main - 混淆 - de4dot异常
+								 - hybrid: usbtest.ddns.net
+
+D8710038437E7FE6773C03DCECA32542 - ??
+                                 - hybrid: kurdip.ddns.net
+    9DD67660C7777B26C82359F239CF1A6C - .NET - WindowsApplication1 - 无混淆
+
+
+3F7A1F9F127B4E912EF823C6A9CA7044 - 自解压 -
+                                 - hybrid: stopping-24-hours.com
+    9E40AEB6B2EF0E3992437E209A7655E3 - .NET - Apr - 无混淆
+        4F4C951B8331951A57231ED475B5DFF0 - .NET DLL -
+            1857FA14F251A360726AE741CA093AA4 - UPX - Pony.exe -
+                                             - 如此熟悉的代码，又跟上边儿重了！我凑！
+            9BBA1513C64C569915A6736F449D1BCC - .NET DLL - CLib - 这个东西又手动加载了一遍 Pony.exe
+
+D6533AD6BF1196AA48D1C66C07FBD872 - .NET - ye - 混淆
+                                 - hybrid:
+7185DED4B75935CE447A92127BE35F2D - .NET - lm - 混淆
+                                 - hybrid:
+
+
+.NET
+057E09DC5956853F9C641AB0F09F7F01 - .NET - LOiC Booter - 无混淆
+                                 - hybrid: socialnetworkbot.top
+                                 - 又是个加载的货色
+                                 - 检测虚拟机，上来就被干了 哈哈哈
+    5D7A6E01560C5BD68EDBBF11CCB1D292 - .NET - NanoCore Client - 混淆 - de4dot-Class*N
+
+05EAB62A4D4A8883E38A7A5DF09A992C - .NET - Numerirusubyxy - 无混淆
+                                 - hybrid: ceo.zapto.org
+                                 - 类很多，没找到干事儿的代码，很多bitmap
+                                 - WW
+
+CA458EC7848CC8D75083BEBC3010E489 - .NET - 14 - 无混淆
+                                 - hybrid: r9---sn-h0j7sn7d.gvt1.com/...
+                                 - 调试异常，无法走到加载的代码
+                                 - procmon也是啥也没有
+                                 - 但是hybrid是创建了文件和进程的，所以是反调试吗？
+                                 - WW
+
+594E026F087CF128BB1501A31A330B29 - .NET - Gevokawugu - 轻度混淆 - de4dot无效
+                                 - hybrid:
+                                 - 重名混淆
+
+A56AB8851FAA4FEEB09C7369EC5AE39B - .NET - w - 无混淆
+                                 - hybrid:
+                                 - 分隔符 |\|\|
+                                 - 重复
+
+25472C1CD9CF4E66625F8BCE9864BE20 - .NET - g - 无混淆
+                                 - hybrid: goodbob66.no-ip.biz
+                                 - 不只是下载者，但下载者的内容怎么没有执行？URL还加密着呢
+    60124003190443C3C15EE7397B4140AE - .NET - w - 无混淆
+                                     - 跟 j 有一定相似度
+                                     - XX - 静态分析完成。实际上动态也没啥好分析的，准备写报告吧。
+                                     - 分隔符 |\|\|
+    F364A3C8DE56A391B608539F86F3F225 - .NET - Facebook Hacker 2013 -
+                                     - 从代码上看像正常的，行为上就是个伪装，啥也没干，但是360报毒
+                                     - 认为是正常的吧
+
+C45949C67E10D7A1B6A9C8CC929C62A0 - .NET - w - 无混淆
+                                 - hybrid: 10.5.50.4
+                                 - 跟 j 重复
+
+75E6CF9E0132D1990E62CDD91A1ED703 - .NET - Orcus - 无混淆
+                                 - hybrid: 185.86.149.202
+                                 - XX - 功能非常完善的远控 - 先过
+
+639775F51DAF08E22C6D874D6F10EBB4 - .NET - Steam IP Puller - 混淆 - de4dot无效
+                                 - hybrid: windowsexplorer.ddns.net
+    C7FFC5B41403134CB7D7895F6C148FE1 - .NET - j - 无混淆
+	                                 - 重复
+
+F46473B4EE8C0BCE9B568A2B546FB30E - .NET - fw - 混淆
+                                 - hybrid: trafa1.duckdns.org
+2F0B6BABF013BAEFD800F4C6FE3229DF - .NET - I4 - 混淆
+                                 - hybrid: r9---sn-h0j7sn7d.gvt1.com
+8021AA0EC715596986F00DB54FED4945 - .NET - wzehc - 混淆 - de4dot有效
+                                 - hybrid: evcs-crl.ws.symantec.com/...
+09CE54DB5DADA95CA1C1A3A9820570B7 - .NET - doc - 混淆 - de4dot无效
+                                 - hybrid: controlx.ddns.net
+CFA02F2E65D1114C93D2775D704D9B33 - .NET - lmnu1.exe - 混淆
+                                 - hybrid:
+8E1C35B17582CBE5A595BDB7CD0F7212 - .NET - server3 - 混淆
+                                 - hybrid:
+7A5C4E3C0E82102A50F4AB7C6294B958 - .NET - ffUswoPk.exe - 混淆
+                                 - hybrid:
+0880120367C360ED8776073A27EF3DD9 - .NET - sIJBtJte - 混淆
+                                 - hybrid:
+63916CA198D8F52F08DC8C9A3002AD09 - .NET - Order - 混淆
+                                 - hybrid:
+7734E2E020F8B75A90276BB81795C1FA - .NET - CamHelper - 混淆
+                                 - hybrid:
+A7230035A9FDB4DA8EFC26311A9B49E5 - .NET - ÐÀÐÀÐ1421Í™Í¤7SÐ6î4IÐ3I2ÉÀî™5É2É¤îÍS87S2I - 混淆
+                                 - hybrid:
+2AB8FC6974DBB80CF0DDD7D6F2A3E43C - .NET - NanoCore Client - 混淆
+                                 - hybrid:
+D6D9F6F06ECCD82746145288B3880813 - .NET - yho - 混淆
+                                 - hybrid:
+0E1CD1EB0CA0A22E30C3C4845F4DEBFF - .NET - n5pes.exe - 混淆
+                                 - hybrid:
+FAE36E6CE2197F8652C0DD0875360EB6 - .NET - NanoCore Client - 混淆
+                                 - hybrid:
+5703DA3070A8998B2955E4907DF2BF4D - .NET - DOOMx64 - 混淆
+                                 - hybrid:
+81E97A484CDDE0362A5F49E67F2821F0 - .NET - zguy - 混淆
+                                 - hybrid:
+173D4E6C9D7CA721B44337680E360E14 - .NET - SudokuSolver - 混淆
+                                 - hybrid:
+0E808C5DF0DFBF96449E958BE0F57713 - .NET - Demo - 混淆
+                                 - hybrid:
+C6A18D63B7C701C3167504937D7F2C2E - .NET - IdrisNotifier - 混淆
+                                 - hybrid:
+0D05F7039B8AAC24C7255782183E4D18 - .NET - Windows Application 9 - 混淆
+                                 - hybrid:
+EAC1B7529095242CACBF42FE2650C177 - .NET - SmLogHub - 混淆
+                                 - hybrid:
+88ED50EB2D30BF01BCF197B8D66340BC - .NET - PassKeyNotifier - 混淆
+                                 - hybrid:
+95B03029B7528257F73292E33E93519D - 自解压 -
+                                 - hybrid: None
+    D88B3C81CBBA578CA7F8D8D32B6FB556 - .NET - Facebook Password Sniper - 无混淆
+    5849579BDA6E4C0044B2699C3A50B6F9 - .NET - ClassLibrary1 - 无混淆
+
+
+47A6272599F9D3D8E84AF37FC8F6F2BD - NullSoft -
+                                 - hybrid: jazz.dynu.net
+    C93C9B1C6AFD85E5EE0A2AEBA4B820A9 - .NET - ultra 2 - 混淆
+
+
+# ---------------------------------------------------------------------------
+# VB
+
+
+C8DFB52FB44DAE0F7368F84AD868B651 - ?? - VB - VB.Decompiler 无法解析: Out of Memory - 运行异常
+                                 - hybrid: soloenviando2017.ddns.net
+8648FF84C1CFE89F362CAEEDEB75B8FE - ?? - VB - VB.Decompiler 无法解析: Out of Memory
+                                 - hybrid: mondacaso2019.ddns.net
+F1B6D540A09FEBB44B755722AAF11C9A - ?? - VB - VB.Decompiler 无法解析: Out of Memory
+								 - hybrid: test2016.no-ip.org
+7213CEF83140C9DF88A1DA3909E1FA45 - ?? - VB - VB.Decompiler 无法解析: Out of Memory
+								 - hybrid: mondaca2017.duckdns.org
+DD7E3C2EF63A1DD7E7B9F4FFD0F0894F - ?? - VB
+                                 - hybrid: 213.184.116.30
+45C42BC7E8355783739821AB51DBCFC3 - ?? - VB
+                                 - hybrid: sroom1.ddns.net/...
+D4430B9746600DCA0FFC1B431F27CA60 - ?? - VB
+                                 - hybrid: None
+C2BF94D81A6647810571ECDDABBF120E - ?? - VB
+                                 - hybrid: None - 有URL
+								 - 运行异常
+8E2A7FE77497C5DE1E70674E9710F41E - ?? - VB
+								 - hybrid: megawaser.ddns.net
+								 - 行为后从系统提取的文件，跟hybrid的不一样
+F9E34CCB90C4E1E775BA8151496CABD2 - ?? - VB
+								 - hybrid: sys.charityautoaz.com
+								 - 行为分析没有网络行为，跟hybrid的行为也不一样
+
+E92DA096CA85A9F420E2BA53FEA96ECF - VB -
+                                 - 这是用COM做磁盘操作吗？
+                                 - hybrid: None
+
+F50C60A10A65FE50C644EE5D20091E14 - VB -
+                                 - hybrid:
+FC6A671D717AEA12C0A13BC415A7D326 - VB -
+                                 - hybrid:
+8289ECA41C55595E123B70FF0458BE68 - VB -
+                                 - hybrid:
+D930126EEC90EC56DA6D4821C097091E - VB -
+                                 - hybrid:
+E0F1C944C51894C8DBAFF9D03C91CBEF - VB -
+                                 - hybrid:
+A007D5F8657358889F4C842953166CB2 - VB -
+                                 - hybrid:
+CF2747D4A46C0A6018B83DC8A4C2E2E8 - VB -
+                                 - hybrid:
+BC4B583F05941407C5202494E26627BD - VB -
+                                 - hybrid:
+A21FF1161B0A82DD69EA77EAE90E40E1 - VB -
+                                 - hybrid:
+DE4BBA15704C9D3C1B5D313BFF128302 - VB -
+                                 - hybrid:
+4278E83FEAC73952E75ADCA1201DA3E2 - VB -
+                                 - hybrid:
+6B28806F699B0AE3235032E5EFC3DBFD - VB -
+                                 - hybrid:
+6901A2A9A8CCEA029812CCF6B3BBD00F - VB -
+                                 - hybrid:
+0CF9CE61D0ECEAA31CE5B8C50B486F32 - VB -
+                                 - hybrid:
+836FB386E2E0AD3E5D7C7E035495E2BF - VB -
+                                 - hybrid:
+75FE84CD61E0AA06E6729EB26EF35F3B - VB -
+                                 - hybrid:
+5570AA12E84ED0D7D8BC780C62324BA1 - VB -
+                                 - hybrid:
+CE311529760D63251FE90AE8CD2E900F - VB -
+                                 - hybrid:
+55941CCB0421FBF62D768510F3BD91D6 - VB -
+                                 - hybrid:
+497F00E4028303A581962B8F70E06991 - VB -
+                                 - hybrid:
+94DE88B99778DF21E9AA87E15E7228FC - VB -
+                                 - hybrid:
+847134C5A17AE268EC4FA4E42E70B4C6 - VB -
+                                 - hybrid:
+5C770A67A45F77808FDFA72E56CDA14E - VB -
+                                 - hybrid:
+EBC459EFC1EDC07579067F1DC7D79608 - VB -
+                                 - hybrid:
+4D929EE3BE2C3EE2D18DBE33EA5912D2 - VB -
+                                 - hybrid:
+5979EFFF10CB5857A63074A4EF4C0AC2 - VB -
+                                 - hybrid:
+268861D2778924CA3029A461AB0E050D - VB -
+                                 - hybrid:
+32BF8C3DEA38CCA514925861A54EC834 - VB -
+                                 - hybrid:
+B6137D0D447F515ACEBC592B6E69406D - VB -
+                                 - hybrid:
+7A20913FFE38C06E486A32BF4DE0DCB0 - VB -
+                                 - hybrid:
+23219B7C0CA263EB52794B91AB69C7EA - VB -
+                                 - hybrid:
+8CA01D7A1E5F057A8805ECA7B80FB5FD - VB -
+                                 - hybrid:
+1E784108B844232ECF399842D1D0017B - VB -
+                                 - hybrid:
+4EBC8488BF10513D3A09A38ABE42FB34 - VB -
+                                 - hybrid:
+2E06532B36D84386CABCF36EB23EA17D - VB -
+                                 - hybrid:
+6A17935743A3625D19243AEAC13E89D6 - VB -
+                                 - hybrid:
+CFC888F51C133C055555E2210A4682F0 - VB -
+                                 - hybrid:
+FA90259B01082D4EEB6339DC6CE9AA46 - VB -
+                                 - hybrid:
+8AD7C7A8D1DE8248F3F973C33BB8F4B1 - VB -
+                                 - hybrid:
+442C610EE0601228B05E07E1B2029445 - VB -
+                                 - hybrid:
+5D4A4A119549BD79389985DD7907471B - VB -
+                                 - hybrid:
+9B5D41FB0357E4909E5B1162C3ED5897 - VB -
+                                 - hybrid:
+F897064D2DCCA19B3F85F7526A0C86A4 - VB -
+                                 - hybrid: troomc.ddns.net/...
+DE2D159708A4F84F48DFF45CA96214B8 - VB -
+                                 - hybrid:
+C426627A3D7C2B46D226B87F5A0BC768 - VB -
+                                 - hybrid: sroom0.ddns.net/...
+1D05D44D34834C6426328DD66F1BAD60 - VB -
+                                 - hybrid:
+8D6645A53B3AA490F8AB667FE5532900 - VB -
+                                 - hybrid: sroomd.ddns.net/...
+2D406BE987248A987D1615103D04CE3A - VB -
+                                 - hybrid: sroom01.ddns.net/...
+5AB0303E53F8BC6346648B4B0F544AED - VB -
+                                 - hybrid:
+7A746EDB8B2306CE6CE3F8DA033C7327 - VB -
+                                 - hybrid:
+8214E7B73F9EEE15E1732FDA35A7E1FC - VB -
+                                 - hybrid:
+1CA803622EECA03CEF469724C7E520AF - VB -
+                                 - hybrid:
+1B6D4DA4C2A86537602CD268508EAE3B - VB -
+                                 - hybrid:
+7BFD72F2EC8FF70014F2B509B424BD7C - VB -
+                                 - hybrid:
+33D211CB9D6389199C3828284C865C00 - VB -
+                                 - hybrid:
+01497402CB2EF9549DAE0461EEE54067 - VB -
+                                 - hybrid:
+
+
+# ---------------------------------------------------------------------------
+# AutoIt
+
+B9F2EFDCD559C874A61DDC1C60EE32B1 - NO
+                                 - 错误的退出调用栈
+                                 - AutoIt
+								 - 脚本混淆
+                                 - hybrid: 192.166.218.230:31567
+								 - 释放的文件与hybrid的不同
+
+528E4BCE252DD17FE4670831A46F916E - ?? - AutoIt - 混淆 - 先过 - Msg+Timer循环
+                                 - hybrid: olivegarden.dyndns-ip.com
+
+227ABE09C7D6B92F1857F3485B0CF77B - ??
+                                 - AutoIt
+                                 - 脚本混淆
+                                 - hybrid: trafa1.duckdns.org
+                                 - 错误的退出调用栈
+                                 - 释放的文件与hybrid的不同
+
+183935FDF57536406F8134E50FE65373 - AutoIt - 错误的退出调用栈
+                                 - hybrid: johansena.ddns.net/...
+
+98026680F69E8CB36595F7C9D2AEFCBD - AutoIt -
+                                 - hybrid: empezar.ooguy.com
+C95B93869C528547721D7C4D92BD5711 - AutoIt -
+                                 - hybrid: pv-hacker.myftp.biz
+                                 - 各种都跟hybrid不同，需要debugee流程分析协助
+27BAC98F00CD49DFB9A32CE74DA3D840 - AutoIt - 错误的退出调用栈，差的API好像很隐蔽的样子，特殊api和u都去掉都没用
+                                 - hybrid: nuevosusuarios.duckdns.org/...
+                                 - 运行崩溃
+423F4DD01FA9CCA4B216C07051273B04 - AutoIt -
+                                 - hybrid: ghf23.no-ip.org
+                                 - 释放的文件与hybrid的不同
+
+CB5CA717389C04CF504138201840C6B2 - AutoIt -
+                                 - hybrid: aiachi10.hopto.org
+    7C1840E273B7B05FF32A2CFE8B1A1EA7 - Delphi
+                                     - 错误的退出调用栈
+                                     - XX - 主体模块??
+    6E1F714DCFABC9253B7CEB92D7407983 - VBS
+                                     - 脚本有错误，无法执行
+
+1EA2863E9D2E58F50FBFCBBE53BD1BC8 - AutoIt -
+                                 - hybrid: wesleyhackenop.no-ip.org
+                                 - 释放的文件与hybrid的不同
+
+# ---------------------------------------------------------------------------
+# Delphi
+
+
+FF35EDACB8C847E85A6494E7858ECADA - NO - 不退出，可强杀
+                                 - Delphi
+                                 - hybrid: vs1.redirectme.net
+								 - 功能缺失 - 远程注入的内容
+	C1BC1DFC1EDF85E663718F38AAC79FFF - ??
+	                                 - DLL
+	                                 - 功能缺失
+	                                 - 需要调试，改变一些东西，才可以
+									 - 需要工具辅助
+
+E2EDD2A11D2EA08EF7F8433934542641 - OK
+								 - Unknown(Delphi??)
+								 - xTREMErat
+								 - hybrid: 18.0.0.5:8080
+								 - 功能缺失 - 不是域名访问的，而是地址访问的，怎么重定向流量呢
+								 - 已提交
+B0B9C403B0E31CD075723C5FA5EE8956 - ??
+                                 - Delphi
+								 - XtremeRAT
+                                 - hybrid: www.msdl.ml
+								 - 跟上面很多代码是相似的，再分析应该没什么意义
+3B8C504CD828EF90E6A3717126686014 - .NET - Crypter - 无混淆
+                                 - hybrid: fox.no-ip.org
+								 - 只是创建进程
+	A92E2EC0849623993978022B7DB0FA4C - UPX
+	                                 - Unknown
+	                                 - XtremeRAT
+									 - 跟之前分析的不完全一样，但是一个套路
+
+36045D2A871CC9BD4A7F3794D3DBEF6A - NO - 不停止，创建子进程，杀不掉
+                                 - Delphi
+                                 - hybrid: eluma102.hopto.org
+								 - xrkpydbg 有隐藏捣乱API
+								 - ShellCode 加载PE
+								 - 有个 URLDownload，但是 URL 没有
+								 - IDA F5失败，内容太多，先过
+	B13CE076830245C6E4C5D72CC1520DC7 - NO - DLL
+	                                 - Unknown
+									 - 远控
+									 - 部分损坏 - 修改的PE头
+									 - 功能缺失 - 函数 4110BE 交叉引用的参数自动化处理
+									 - 继续跟进 - 可以出报告 - 带特征
+
+67152BB96D4E0EE6D2FB28C083E4629E - OK
+                                 - Delphi
+                                 - hybrid: ezemiller.no-ip.biz
+                                 - 有几万个 OutputDebugString...
+								 - 无法定位关键模块
+								 - 功能缺失
+								 - 很多功能都缺失
+
+
+408637010E186DC37EB437DE60289AD3 - Delphi -
+                                 - hybrid:
+
+E360F10199D813EB794527571ED22902 - NO - 不退出，关不掉
+                                 - Delphi
+                                 - 1111.exe时OK
+								 - msdcsc.exe时不退出且关不掉
+                                 - hybrid: r6---sn-h0j7sn7z.gvt1.com
+								 - 需要调试，改变一些东西，才可以
+                                 - XX
+B27EDAB5554919C340D783E7275502BE - 无壳
+                                 - hybrid: fofo866.ddns.net
+								 - 给李星宇
+95A2A7BA4DD10FAF26C158582A31A082 - UPX
+81C77169B3722481DD1AC287672DE505 - 无壳
+157A831D7A463E4DD934F84584186620 - UPX
+1AAF1CC9D29BC49173B89ACB34FB5138 - 无壳
+3B0A808B51823B5AD4EFB0197A015DD3 - MPRESS v2.12
+00298ADDA6422F9CD2E9A272E04E9A61 - UPX
+0440CB002F77A8CF1645D15B53F7F348 - MPRESS v2.12
+                                 - hybrid: None
+
+
+B83BC95C320A306B354EB409AA395069 - Delphi -
+                                 - hybrid:
+
+EE752E20CFFCF52079F0D318B3AF996D - UPX - Delphi -
+                                 - hybrid: succchfamily.ru
+                                 - 估计是又重复了
+
+
+1536D9BEAEB0FD3C8F6CE6898009F618 - Delphi -
+                                 - hybrid:
+DA6D41C956AA3B1DFEA9559FD18732C3 - Delphi -
+                                 - hybrid:
+E669DA3B29545B574A7D576C63216049 - Delphi -
+                                 - hybrid:
+56870DD2B83765AA09B31AABA5FD602E - Delphi -
+                                 - hybrid:
+83CCF14AF0C2DCFF7F02428B24822569 - Delphi -
+                                 - hybrid:
+
+50FCE655994D4AB43A463D37C1C93F25 - 重复 - Delphi
+                                 - hybrid: cometvirus.servegame.com
+C4F1D0C09D08771835AE9A7BBF3B7451 - 重复 - Delphi
+                                 - hybrid: superrr.zapto.org
+40D461F78D30049F26FD7113AA8C2C45 - 重复 - Delphi
+                                 - hybrid: patrice.zabto.org
+A2DF7AED851E69F27CBCAF8FBA1E716B - 重复 - Delphi
+                                 - hybrid: genowww.ddns.net
+4189B2EBC67585194FA83732D38E799B - 重复 - Delphi
+                                 - hybrid: None
+C2A65F521297DCBA76F1FF7B6128C84C - 重复 - Delphi
+                                 - hybrid:
+
+E0AB43E4C42C67EF9A7C7A44146D05CA - Delphi - 重复
+                                 - hybrid:
+
+144CD7B80A8D05649F844B482C86D5C0 - Delphi -
+                                 - hybrid:
+
+CBF8C064C6213F3CC3261634A445C975 - Delphi -
+                                 - hybrid:
+
+# ---------------------------------------------------------------------------
+# 压缩包/自解压
+
+D9D6FDC63FC43B21E35D4B1E649EF745 - 压缩包 -
+                                 - hybrid: desenator.servehttp.com
+    A1D5EE8B007A395682EA21F765B0EB44 - 非PE
+    6D6D92CA4E360CA218372FAD6E3E4F2A - MFC -
+                                     - 这又是个啥....
+
+53B6ADCCFA92BC14352AEC7289AB2950 - 自解压 - 文件太多
+                                 - hybrid:
+
+606BE61D37E0407553E5605A4980D6E3 - 压缩包 - 2个文件，其中1个大小为0
+                                 - hybrid: 84.200.69.80
+    3B5C61C536C3E50DDD89CA8D2679BEE8 - 自修改 -
+                                     - 核心模块是kenrnel32??
+                                     - 是不是跟上边儿重了...
+
+
+1A48BE089DCADC3E33688261014CDD6C - ?? - 自解压
+                                 - hybrid: aaa1.ddnsfree.com
+    D43471B821B88D2D39DCAB834E138B84 ?? - 自解压 - 带密码
+        EA91E005C6920683A4526839F7745482 ?? - 卡了 - shellcode - PE在栈上
+            F88A9CD206A3B3C6E35693884FBEE25D NO - 单独运行会崩溃，应该缺少条件
+73B464D83744987FCA77508119A06A05 - 重复
+                                 - hybrid: nelsmaster02.ddns.net
+    CAE0B62240299141C077FF16BA4DC373 ?? - 自解压 - 带密码
+        EA91E005C6920683A4526839F7745482 - 完全重复
+E5750C4B162D046416C453BCC8A07970 - 猜测重复
+                                 - hybrid: fuckjazz.dynu.net
+
+B282D2973B8E4D7D96A3A68CF1FEB22F - 自解压 - 方式重复，解压内容需分析
+                                 - hybrid:
+6EAB6B718DF3FC2D7EDD1C04D8C0F4DE - 自解压 - 方式重复，解压内容需分析
+                                 - hybrid:
+    1E60CDF29440FACD18FF5068CCC115EB - 自解压
+        EA91E005C6920683A4526839F7745482 - 完全重复
+
+
+D310C81F455CB0CD9695154C82FBA177 - 自解压 - 方式重复，解压内容需分析
+                                 - hybrid:
+
+# ---------------------------------------------------------------------------
+# 其他
+
+D2D23551A549BEB941F351B6A9226435 - xx - 不是有效的Win32
+BAD1BDCB83864605C3BF8EA576544F48 - xx - JAR
+2BA8BE9539FF5CBF2173BA80700CFA2C - xx - DOC
+
+
+BDDB10729ACB2DFE28A7017B261D63DB - ?? - 功能缺失 - DLL
+                                 - hybrid: None
+
+
+
+
+# ---------------------------------------------------------------------------
+701670E8B7238B8BCFF37A46D176F56B -
+                                 -
+                                 - hybrid:
+                                 -
+
+CB409563BC25BD4FE314498E9D06C6CE -
+                                 -
+                                 - hybrid:
+                                 -
+
+849A83D50EB8ACB0333425FB9A53DE6F -
+                                 -
+                                 - hybrid:
+                                 -
+
+7A9C28E81E001645E8F823199ECFDCF8 -
+                                 -
+                                 - hybrid:
+                                 -
+
+D5312E046ADD023540EDDFA1C81C8179 -
+                                 -
+                                 - hybrid:
+                                 -
+
+56E148B21FB0331B96E38C108E9DE56C -
+                                 -
+                                 - hybrid:
+                                 -
+
+7C7906657CED368D1975B9E82F674414 -
+                                 -
+                                 - hybrid:
+                                 -
+
+78767D153BE7A72E06B8088F7D64BD98 -
+                                 -
+                                 - hybrid:
+                                 -
+
+E977E9E7014B3CE5A5CA633342691160 -
+                                 -
+                                 - hybrid:
+                                 -
+
+A4400C0C681FCD7462C8D909BDFDFECC -
+                                 -
+                                 - hybrid:
+                                 -
+
+47DDEAB5A1E88C8E8DF7C18CC4D84E8B -
+                                 -
+                                 - hybrid:
+                                 -
+
+FBF2CDB128834A2C5F43F2CF63408106 -
+                                 -
+                                 - hybrid:
+                                 -
+
+F71D8C9C789DD834E7248FC2615897E3 -
+                                 -
+                                 - hybrid:
+                                 -
+
+C2DF7951668C3BC139C31B3C5C30CB8B -
+                                 -
+                                 - hybrid:
+                                 -
+
+3D9543875B7EB13B7E93D7988283F5A8 -
+                                 -
+                                 - hybrid:
+                                 -
+
+A8CCCA6DB348B5E87C5DD31EB3A3E0B3 -
+                                 -
+                                 - hybrid:
+                                 -
+
+D261137812E4459848E8C07635436B17 -
+                                 -
+                                 - hybrid:
+                                 -
+
+E71F64D02FC428AA23A67C25E560A893 -
+                                 -
+                                 - hybrid:
+                                 -
+
+1756972A4CE22807ECADF4D939E06643 -
+                                 -
+                                 - hybrid:
+                                 -
+
+DE9B612013F3488C879B16CC4790DEE6 -
+                                 -
+                                 - hybrid:
+                                 -
+
+45A193A941557B76D62EBB565D52DFA5 -
+                                 -
+                                 - hybrid:
+                                 -
+
+D81248C7257877296E442C0063F65C40 -
+                                 -
+                                 - hybrid:
+                                 -
+
+0D12966DF20901A57FFCC9D308C5E459 -
+                                 -
+                                 - hybrid:
+                                 -
+
+A20E7476191B46DF09B69026B8676819 -
+                                 -
+                                 - hybrid:
+                                 -
+
+7A70E3AB77B4B032DADF19F1F78F5EF1 -
+                                 -
+                                 - hybrid:
+                                 -
+
+81E184B598E36AAD1B5A01639212B631 -
+                                 -
+                                 - hybrid:
+                                 -
+
+851D448EEA37A83B057D17AE7CD170B3 -
+                                 -
+                                 - hybrid:
+                                 -
+
+8F94DB810F1442C9E6FE41660E8155D3 -
+                                 -
+                                 - hybrid:
+                                 -
+
+7392593389E0E79D04B8A6A6DF0AD233 -
+                                 -
+                                 - hybrid:
+                                 -
+
+F0F990A9AE8D5AEEFBBE68ABF91EF542 -
+                                 -
+                                 - hybrid:
+                                 -
+
+F6BB6B67555FA8F533BF07BBF4AE5813 -
+                                 -
+                                 - hybrid:
+                                 -
+
+F008397633015C6ADD1FA3ADE492483A -
+                                 -
+                                 - hybrid:
+                                 -
+
+CA33167ADE4C53EF12D886A98BFA243D -
+                                 -
+                                 - hybrid:
+                                 -
+
+43347912AB371F47C57564A4B107D90A -
+                                 -
+                                 - hybrid:
+                                 -
+
+9B2EBB894CB52166397256056C8F8CCD -
+                                 -
+                                 - hybrid:
+                                 -
+
+1DBEF3948CEEE955068DC229D4481C6C -
+                                 -
+                                 - hybrid:
+                                 -
+
+A3EA035A9F966B380F9530B4B84DDDE3 -
+                                 -
+                                 - hybrid:
+                                 -
+
+E450AD8C51B193CEE46B016A6EC91ADB -
+                                 -
+                                 - hybrid:
+                                 -
+
+32AA849DF8BC63F19A889290525C1F25 -
+                                 -
+                                 - hybrid:
+                                 -
+
+4741375F8D95A0E507CEE3D829326669 -
+                                 -
+                                 - hybrid:
+                                 -
+
+532DE18108BE02281A4B87CA43B92CD9 -
+                                 -
+                                 - hybrid:
+                                 -
+
+AC2AE9EA50E3F4EACA75767F9FA04672 -
+                                 -
+                                 - hybrid:
+                                 -
+
+752D4762C452D637602B9524D2EC3991 -
+                                 -
+                                 - hybrid:
+                                 -
+
+BE1844140818B25B402F27FDDBE58CC3 -
+                                 -
+                                 - hybrid:
+                                 -
+
+FD042E4F5D34554C68626BA4EDE9D408 -
+                                 -
+                                 - hybrid:
+                                 -
+
+B58F6E91B0E76302F32E938F975E8C5A -
+                                 -
+                                 - hybrid:
+                                 -
+
+BA39A36994D6E5B8CCF3E0948063CA0C -
+                                 -
+                                 - hybrid:
+                                 -
+
+7324E6699F1AA83C2A977D0E0F531788 -
+                                 -
+                                 - hybrid:
+                                 -
+
+CC9FAB2465A279B9424DA3A09DF7C8D5 -
+                                 -
+                                 - hybrid:
+                                 -
+
+1AF4970CC7AAC39C31466216978A24B3 -
+                                 -
+                                 - hybrid:
+                                 -
+
+6E15CBC4189A4CCF7134F5F8000D9702 -
+                                 -
+                                 - hybrid:
+                                 -
+
+109C3AD3C6081DA5DF1E88061B3B3B2C -
+                                 -
+                                 - hybrid:
+                                 -
+
+EE4B621E5A558353C6C6C8B308CCD274 -
+                                 -
+                                 - hybrid:
+                                 -
+
+C6208576B38C944B9DC1D9776622B463 -
+                                 -
+                                 - hybrid:
+                                 -
+
+0D03AC67E18E7D366FF14F41D01A0E26 -
+                                 -
+                                 - hybrid:
+                                 -
+
+248E0BE0F4EC75B88F527CABEE1471DC -
+                                 -
+                                 - hybrid:
+                                 -
+
+049774291BDF8F8DC86CFE667BB9A9AC -
+                                 -
+                                 - hybrid:
+                                 -
+
+4D480CF09959381F27D07FA00A11A1E5 -
+                                 -
+                                 - hybrid:
+                                 -
+
+DA214D78196311B70B34F0F2BC9411DD -
+                                 -
+                                 - hybrid:
+                                 -
+
+8FB236F2EE02FF96734901002D923E8D -
+                                 -
+                                 - hybrid:
+                                 -
+
+55BCB2E14C3508B3E549345315160A74 -
+                                 -
+                                 - hybrid:
+                                 -
+
+15436966500DD8D0A99D271C9A9E7D2E -
+                                 -
+                                 - hybrid:
+                                 -
+
+1F33AE5085EE1E2A2A922B0148D73CC5 -
+                                 -
+                                 - hybrid:
+                                 -
+
+A83FA812C5C0F35AA4DADF4A65C851B1 -
+                                 -
+                                 - hybrid:
+                                 -
+
+997ED8DC0681CD2EB705C9BC806654E7 -
+                                 -
+                                 - hybrid:
+                                 -
+
+10867D6C6966C8BDF4D220C22CD91239 -
+                                 -
+                                 - hybrid:
+                                 -
+
+1C1C0667FFE3ED893738D63ED5D9D89C -
+                                 -
+                                 - hybrid:
+                                 -
+
+AA2F3D64B321C823F33A60BF6945B3B7 -
+                                 -
+                                 - hybrid:
+                                 -
+
+8FA5C41C1B8844B38F634053AEA9A32F -
+                                 -
+                                 - hybrid:
+                                 -
+
+18E4A570BE3FE301776F81E39DF6974B -
+                                 -
+                                 - hybrid:
+                                 -
+
+3469EF63A392A709CC1D4A7E0D2D615D -
+                                 -
+                                 - hybrid:
+                                 -
+
+B18EA42B2C2BA0BFA9D5A524E344C09F -
+                                 -
+                                 - hybrid:
+                                 -
+
+7B9668238D4E827CB2D1BDE6DAE27173 -
+                                 -
+                                 - hybrid:
+                                 -
+
+B131B1DE7B5B8E54C3F86E43789FC318 -
+                                 -
+                                 - hybrid:
+                                 -
+
+EEEC8867DB4C29C77919BE79C321FD48 -
+                                 -
+                                 - hybrid:
+                                 -
+
+1FD4E549F9C0A945F568576A7295EA65 -
+                                 -
+                                 - hybrid:
+                                 -
+
+69B9BDC6AE3A69AE351545859D9AC268 -
+                                 -
+                                 - hybrid:
+                                 -
+
+24E808791F4B668E67CEE51E48A2B615 -
+                                 -
+                                 - hybrid:
+                                 -
+
+B60C4F03CE5BDF7EE6AA51DB659352C5 -
+                                 -
+                                 - hybrid:
+                                 -
+
+91FDCB418C4A7EDDACD97E3A45BA3763 -
+                                 -
+                                 - hybrid:
+                                 -
+
+C5FDE35CE2534EEF90F60951440F888F -
+                                 -
+                                 - hybrid:
+                                 -
+
+7525985661E11CB992DA975492A4AEE2 -
+                                 -
+                                 - hybrid:
+                                 -
+
+A3E4C8791139D9C4F8B35B5E22088668 -
+                                 -
+                                 - hybrid:
+                                 -
+
+6F3922A916F999C436898967B8F6A8A9 -
+                                 -
+                                 - hybrid:
+                                 -
+
+944A60DDC42AB4F8445ABAF948355F89 -
+                                 -
+                                 - hybrid:
+                                 -
+
+5EB6AF18AA77D8F1B42C8916E01A3472 -
+                                 -
+                                 - hybrid:
+                                 -
+
+B98BDF6D85E55ED36EF9F0C8BB4BC0DD -
+                                 -
+                                 - hybrid:
+                                 -
+
+378733578BC0BC5BC9ED4A754B9B244D -
+                                 -
+                                 - hybrid:
+                                 -
+
+E31B56CA4BF0BA57E5BF00B5E508D66B -
+                                 -
+                                 - hybrid:
+                                 -
+
+D3103146B5D8DA87A6C05AC72ADD9103 -
+                                 -
+                                 - hybrid:
+                                 -
+
+D450F1B9C54123267D4C20632C100E87 -
+                                 -
+                                 - hybrid:
+                                 -
+
+2C5DBA88C3E36550A690603AEABA8C83 -
+                                 -
+                                 - hybrid:
+                                 -
+
+58DED6AA18889BA513131D3B9943BD72 -
+                                 -
+                                 - hybrid:
+                                 -
+
+6899D1E220B023D2C31240177617087A -
+                                 -
+                                 - hybrid:
+                                 -
+
+AED504C108C9B8A2F45369F2B3ECE67B -
+                                 -
+                                 - hybrid:
+                                 -
+
+CE3AAF4335B1BFF7EDBA0310714A450F -
+                                 -
+                                 - hybrid:
+                                 -
+
+457F664D8F2E7142EE748AC8803CC791 -
+                                 -
+                                 - hybrid:
+                                 -
+
+2727BAF8977FCFFB5CE90C16D851B8F3 -
+                                 -
+                                 - hybrid:
+                                 -
+
+841ACD6F42EF4E6F45630313A14E5F3E -
+                                 -
+                                 - hybrid:
+                                 -
+
+CEDEAD659D9F76478330244F394A6D8C -
+                                 -
+                                 - hybrid:
+                                 -
+
+45D7AA88443FB7205B389809015EBB9A -
+                                 -
+                                 - hybrid:
+                                 -
+
+431F17A50B0F666ACC12D6EA0AD1C4A2 -
+                                 -
+                                 - hybrid:
+                                 -
+
+4D6B9384281A4B12E3AB2B2459595C83 -
+                                 -
+                                 - hybrid:
+                                 -
+
+3EBADC309E17941C52BB1167863DE867 -
+                                 -
+                                 - hybrid:
+                                 -
+
+39957A4EBA2E9583335A39E1A7E7EB41 -
+                                 -
+                                 - hybrid:
+                                 -
+
+8E2C06B52F530C9F9B5C2C743A5BB28A -
+                                 -
+                                 - hybrid:
+                                 -
+
+E3B01E95E59E45F6C1D2E02BB0A3539C -
+                                 -
+                                 - hybrid:
+                                 -
+
+D73B98EA85CAB825B6BC68F775818B80 -
+                                 -
+                                 - hybrid:
+                                 -
+
+7DF9B643A33C0BC7F642EE52AB63F8AC -
+                                 -
+                                 - hybrid:
+                                 -
+
+2E89DFD2CEA3EC4F577E5E012FFAF4DA -
+                                 -
+                                 - hybrid:
+                                 -
+
+7052CDC6AA218B97BD70517B84D07443 -
+                                 -
+                                 - hybrid:
+                                 -
+
+020928123AE29FF736B652CCE623AEA9 -
+                                 -
+                                 - hybrid:
+                                 -
+
+6DAFD386D0F85AF1F3BC17069D98EE79 -
+                                 -
+                                 - hybrid:
+                                 -
+
+AA053925457E633571CE34B160849439 -
+                                 -
+                                 - hybrid:
+                                 -
+
+B4A669E04D18A474F86D735EBA415350 -
+                                 -
+                                 - hybrid:
+                                 -
+
+AC05B6D7C9A81C0B47F9177A8FDA4C96 -
+                                 -
+                                 - hybrid:
+                                 -
+
+94602FF60B28667EC36D8CE2DC39D175 -
+                                 -
+                                 - hybrid:
+                                 -
+
+574936DEE47F3810C24A0F91A68B1833 -
+                                 -
+                                 - hybrid:
+                                 -
+
+EE79005FCBA87C3F83CF88DEBF424140 -
+                                 -
+                                 - hybrid:
+                                 -
+
+49B2BC5E6A8FEEE7C9F5771EB1EDF12B -
+                                 -
+                                 - hybrid:
+                                 -
+
+C96284363374597A3AC4B07C77E8325B -
+                                 -
+                                 - hybrid:
+                                 -
+
+167B0BBA1CF84F4B8291544C5D5FE194 -
+                                 -
+                                 - hybrid:
+                                 -
+
+C642633B24095EA77713644A4F7B105B -
+                                 -
+                                 - hybrid:
+                                 -
+
+84971DBFE491B473FB67AF88286AAC77 -
+                                 -
+                                 - hybrid:
+                                 -
+
+A6BAAA12A56FE0710E279A489177298D -
+                                 -
+                                 - hybrid:
+                                 -
+
+42A957C286FB08DF5ECC69D64B5F2E8F -
+                                 -
+                                 - hybrid:
+                                 -
+
+577C290CC9419BE6B5A4512CE40817D4 -
+                                 -
+                                 - hybrid:
+                                 -
+
+E1D9A11A22783ABA0E4AD11AE0921698 -
+                                 -
+                                 - hybrid:
+                                 -
+
+2D51B0403A3E6CA699D878955FA84C1C -
+                                 -
+                                 - hybrid:
+                                 -
+
+861AA61C18956286358433A13EE6AA6F -
+                                 -
+                                 - hybrid:
+                                 -
+
+EF178DA1DF0B23C961BC1EC3C0D53C0A -
+                                 -
+                                 - hybrid:
+                                 -
+
+29B83C77C6A6E8DB907810DF82AF1479 -
+                                 -
+                                 - hybrid:
+                                 -
+
+5AC4C227C7A9AC68D9B76F7FFF6666D7 -
+                                 -
+                                 - hybrid:
+                                 -
+
+2E11C8B7452D1B4B90DB985B12055A7A -
+                                 -
+                                 - hybrid:
+                                 -
+
+44FD4B4DFAA74079102F85EAFD396591 -
+                                 -
+                                 - hybrid:
+                                 -
+
+221C774E9DC0124F29B2CD0D9C3C4422 -
+                                 -
+                                 - hybrid:
+                                 -
+
+C287487554E7019772D89BB14CD3295E -
+                                 -
+                                 - hybrid:
+                                 -
+
+AD63577D32FE4DE6044E3623DEDE415B -
+                                 -
+                                 - hybrid:
+                                 -
+
+9C15902F0C3A5B239CE3CAFFE2847713 -
+                                 -
+                                 - hybrid:
+                                 -
+
+82FEB43730D396F601E5BBE089A0CDE7 -
+                                 -
+                                 - hybrid:
+                                 -
+
+9026246AFCC01EF5C5C8961DC1C6BC37 -
+                                 -
+                                 - hybrid:
+                                 -
+
+ECB893815C2479A2587C14417925CAC4 -
+                                 -
+                                 - hybrid:
+                                 -
+
+4A1F4405B8F854D79A015EC9C2861C58 -
+                                 -
+                                 - hybrid:
+                                 -
+
+7CCAAED73E1C559540B480358CF30E5D -
+                                 -
+                                 - hybrid:
+                                 -
+
+1A543F85361137A3D0C4D9AD68F9E630 -
+                                 -
+                                 - hybrid:
+                                 -
+
+9BA2AD2AD983ECDFD04FFBED6D69B61E -
+                                 -
+                                 - hybrid:
+                                 -
+
+41928FA767843F29856098E321E58D69 -
+                                 -
+                                 - hybrid:
+                                 -
+
+3D92FB6591751A0B67C08C52CE4DA4D4 -
+                                 -
+                                 - hybrid:
+                                 -
+
+62824CFC0C49A21FD2390344DD5D65E6 -
+                                 -
+                                 - hybrid:
+                                 -
+
+F921DA045A0D625F0F65D761BC5A7927 -
+                                 -
+                                 - hybrid:
+                                 -
+
+C96A9F69A76A1139C07CFC23ABECD507 -
+                                 -
+                                 - hybrid:
+                                 -
+
+884046F595EE58F320FD3FE421D135D5 -
+                                 -
+                                 - hybrid:
+                                 -
+
+DE356F2A55B25E04742423B5EC56DE93 -
+                                 -
+                                 - hybrid:
+                                 -

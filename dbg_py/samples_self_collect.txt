@@ -1,0 +1,456 @@
+# ---------------------------------------------------------------------------
+
+D:\_git_tmp\signature-base\iocs
+一堆IOC
+D:\_git\malware-ioc
+D:\_git_tmp\malware-indicators
+D:\_git_tmp\iocs
+D:\_git_tmp\awesome-iocs
+
+
+D:\_git_xx\Botnet
+一堆Botnet(源码?)
+
+
+D:\_git_tmp\APTnotes
+一堆PDF，每个都是大活儿
+
+# ---------------------------------------------------------------------------
+
+
+“幽浮”广告
+637F7B0883DDA35A8F7B8C0B99904420 -
+                                 - hybrid: None
+								 -
+
+
+Acronym_ M is for Malware
+- 8a1094ba7ac7ff47d9e38f1e9c00b8f4
+a199e9d00123fefe69f2863b08f211a2 -
+                                 - hybrid: 85.143.166.244:8080/...
+								 -
+
+Amnesia
+- 74bf554c4bc30d172cf1d73ac553d766
+- 5dd9056e5ab6a92e61822b6c04afd346
+
+
+双尾蝎（APT-C-23）
+- 4299fbfe74f671ee2c36d71bc808437c -
+                                 - hybrid: upload101.net/...
+								 - hybrid: 文件未共享
+								 -
+- cd38d10f4bc730b40be1f80b3034e31e -
+                                 - hybrid: upload101.net/...
+								 - hybrid: 文件未共享
+								 -
+
+
+aveo
+AE2B5BD70945B1622FB27496EC9E15FE -
+                                 - hybrid: None
+								 -
+CD6D979280146C3205010AC3C4B81D02 -
+                                 - hybrid: None
+								 -
+
+BugDrop - 套件
+- DOC
+38DFDED491A1D8D3792669CB8E41E31C -
+                                 - hybrid: None
+								 -
+- Dropper
+1A6986FE9E1BA213DD738054118FCFDD -
+                                 - hybrid: None
+								 -
+
+Carbon
+- e664b6f5f50d1a7991e254e5e81a683f
+- 7ddee9311d7ab2d548e9b252383863ef -
+                                 - hybrid: None
+								 - hybrid: 文件未共享
+								 -
+- cb1b68d9971c2353c2d6a8119c49b51f -
+                                 - hybrid:  None
+								 - hybrid: 文件未共享
+								 -
+
+ChChes
+- 3afa9243b3aeb534e02426569d85e517
+- 8a93859e5f7079d6746832a3a22ff65c
+
+
+Diamond Fox
+92D098A9F2ADB0E4C524EDD82A81C894 -
+                                 - hybrid: None
+								 -
+
+dklkt(安天)
+- 464DC38C776724B9EC931480419DCF64
+
+Dridex
+4599FCA4B67C9C216C6DEA42214FD1CE
+
+Dyzap
+- eaa07a6113b142e26c83132716d1ab42 -
+                                 - hybrid: suntrussst.com
+								 - hybrid: 文件未共享
+								 -
+EmbusteBot
+- b88cc83d8b7a0ce05f8a1d1b24ea7410
+- ebbd3cfa02e84e9b717f883b8a5c5c56
+
+EyePyramid
+- 778d103face6ad7186596fb0ba2399f2
+- 47bea4236184c21e89bd1c1af3e52c86
+- 09ff13b020de3629b0547e0312a6c135
+
+Furtim
+- 5f56c54983e1ea1f8e06c29e796bcf25 -
+                                 - hybrid: None
+								 - hybrid: 文件未共享
+								 -
+Gafgyt(安天)
+60B193AC62F64C78C517EF4228FD0038 -
+                                 - Linux
+								 -
+- 5193f234df2f8e3ca072e62637a119a3
+
+GhostAdmin
+219ba2ee0bcdb23bf89079ac97730d57 -
+                                 - hybrid:
+								 -
+- 9fd957946df2ca43af3380702116f070
+- a9d63bf8fc69fb58bce5c1f8f13a644e
+
+Graftor
+- 562b1846cdc4fe659bb1a261477242c2
+- cfd541c3f3dcda48d6b7d9340eb0b99b
+
+Hajime
+-No IoC
+
+Hancitor
+13EC9875AAEA2921BBB0E854CDCBF2F6 -
+                                 - hybrid: rongaboty.ru
+								 -
+063ADF42A8CAD08DE610C3F1E6B6819A -
+                                 - hybrid: seatreledu.com
+								 -
+0D10EF9D038E62B104498740031758E9 -
+                                 - hybrid: None
+								 -
+
+How Malformed RTF Defeats Security Engines
+- efcc5cfb3e0c1a52889642c5d02aa301
+- 77c1e477fd120dd7cd8093d9eb355a46
+- ce4a4bccdad5b85ea2138893c9070232
+
+hybrid
+1206752B0DF45EE23A6791773B27C16F -
+                                 - hybrid: ur5fbg7zlmo3krly.onion.nu/...
+								 -
+
+Malware Employs PowerShell to Infect Systems
+- bbd877a68b3d4aa4117d829f03d164be
+7F58D7DDDEC4B72BAB0FB27CD852593E -
+                                 - hybrid: None
+								 -
+Mega
+- 91326328ab9e732eda20064926dc1a6e
+- 12B1670E9BAEDA0C7C0FA7EB68843718
+
+New targeted attack against Saudi Arabia Government
+3CD5FA46507657F723719B7809D2D1F9 -
+                                 - hybrid: mail.spa.gov.sa
+								 -
+4ED42233962A89DEAA89FD7B989DB081 -
+                                 - hybrid: 92.122.180.80
+								 -
+
+Operation Cleaver(应该分析很多sample)
+- 01606d42c64e4d15ea07d4e1fbd0c40d
+- 0405adfc8739025ba88c746c8edebfb8
+- 04fdf5b757764af8bc7ef88e0f8fe8c1
+
+Operation Emmental
+- 手机的先不管
+
+Operation Ghoul
+- b8f6e6a0cb1bcf1f100b8d8ee5cccc4c -
+                                 - hybrid: uploads.im/...
+								 - hybrid: 文件未共享
+- fc8da575077ae3db4f9b5991ae67dab1
+- 5f684750129e83b9b47dc53c96770e09
+
+Operation Iron Tiger
+- hash需整理
+
+Operation Transparent Tribe
+- hash非常多也有很多类，需慢慢整理
+
+ProxyBack
+95BF812A74E24E5B311081FD4CB8DDD0 -
+                                 - hybrid: -
+CD6B0F731CE8818AE8001867AFB48621 -
+                                 - hybrid: hclickmeterg.com/...
+								 -
+BF7FB531E18FB9221EC431289A3CA8A1 -
+                                 - hybrid: -
+
+PUP
+- b6fc1e30bf4ae83c02141b0f87c46e16
+
+Pythons and Unicorns and Hancitor
+CA7933C9CEB85CCD8D4C92AFC8C3D6BE -
+                                 - hybrid: lidiahalamtrading.com
+								 -
+
+RIPPER
+15632224B7E5CA0CCB0A042DAF2ADC13 -
+                                 - hybrid: None
+								 -
+
+Rombertik
+F504EF6E9A269E354DE802872DC5E209 -
+                                 - hybrid: None
+								 -
+
+Sage
+3686b6642cf6a3d97e368590557ac3f2 -
+                                 - hybrid: None
+- d8226b7697524c60eddd22a46b588ff7
+
+Sage 2.0
+B1BFA47E9776793C4D83F0C6FDAD379C -
+                                 - hybrid: mbfce24rgn65bx3g.er29sl.in/...
+								 -
+
+Seaduke(安天)
+A25EC7749B2DE12C2A86167AFA88A4DD -
+                                 - hybrid: monitor.syn.cn
+								 -
+
+Shamoon2
+146A112CB01CD4B8E06D36304F6BDF7B -
+                                 - hybrid: None
+								 -
+bf4b07c7b4a4504c4192bd68476d63b5 -
+                                 - hybrid: update.winappupdater.com
+								 -
+
+Targeted Attacks in the Middle East
+- 6462bdc3c6a5efb11e066853a757164a -
+                                 - hybrid: www.mailsinfo.net
+								 - hybrid: 文件未共享
+								 -
+x 8a574181ed2efe4c2b02efd9a4ac0ece
+4c1eec2b9b6eefa49ff9f5fd87e77482 -
+                                 -
+
+TeamViewer 1
+x 5ec6eeefdb2a49a7648bb6d59610583a
+x e79f5691c8b2d090a0f22e5d25591def
+x 2db8213c687ebd932279642456703b23
+
+TeamViewer 2
+x 83a1634f660d22b990b0a82b1185de5b
+x cd56d04639dd395a035bc2a2e11f5d3d
+
+The Truth About Fileless Malware
+49A748E9F2D98BA92B5AF8F680BEF7F2 -
+                                 -
+Toxik
+//比较多
+
+Trochilus and New MoonWind RAT
+//
+
+Trojanized Adobe Installer
+//
+
+Wali
+//
+
+winmirai
+//
+
+Winnti
+//
+
+Baijia
+//
+
+banking
+8582db69683290be0381bd1485013435 -
+                                 - hybrid: None
+								 - hybrid: 文件未共享
+
+Blackmoon(一堆downloader)
+66c0e795b4264437ac344a8a662283b5
+a7b3f6c0b9afab2f3848174ec220da13
+8728714d7a1bd1733557c232b63a0f33
+0d2d9c90e583b39ec6a5b3877f0e119c
+
+Bondnet
+//
+
+Cardinal(一堆downloader)
+180fe86db301b9ad3f2ad6b6a12b3411 -
+                                 - hybrid: ns.liveupdate1.com/...
+c2a1a284ccef4486976d6d7b24c462c8
+
+Citadel
+88622290cf711c17969aed41d7a6e92e
+
+CRADLECORE
+53f6f9a0d0867c10841b815a1eea1468 -
+                                 - hybrid: None
+bffb1788eda29fabb0ca3fa85186f57d
+
+DNS takeover
+d758fd8cfb80a458a43770037ec82aac
+1af107152eda9cc870c639a5b1c3c466 -
+                                 - hybrid: 76.73.17.194:9090
+
+Dridex x
+1cdecc032262cc06375296dd7d907968
+130b76fcf04f44433fa075c3cc596d03
+41a5b1d50947452adb663abcb6ecb829
+
+Emotet
+999dc192f90955d3d8d005414ccd8913
+28f6236e926794dc0861f8f1696fb7da
+
+Emotet x
+1ec9d2ff3bb345379b06972e0454d652
+
+GEODOE - MOTET
+f421e2c516b7fab72f68c97585ba177b
+
+hybrid
+1EC9D2FF3BB345379B06972E0454D652 -
+                                 - hybrid: willemberg.co.za
+
+hybrid
+81FA2EB97128B6D711158F37698E044F -
+                                 - hybrid: centralsecuritybureau.com
+
+Iranian Fileless
+//
+
+ISFB
+9b26ce69b1f4829690e9b2ba69e5c84e
+d51d9302f4dbf69ed6d901f3849148b9
+
+Kazuar
+a029007534b95c2bd8e29e80f97f292d
+cafe3f10dc01ad158b14932b6562616f
+
+KINS
+b3edd03e637283abd1f82d979a4cc544
+bad07fa39920adf54a61064dd6394922
+
+KONNI
+//
+
+Liveblog
+4e1626ea5fc4961402c129a53b9bc20c
+
+Malvertising
+554c5dbb12e3fd382ce16e5bb34a17c2
+
+Mirai_Updated
+a19d5b596992407796a33c5e15489934
+0acc2cb0dcc2ce9a67a857fed5de9278
+
+mofang
+//
+
+Mole
+31c2e85ef5e4c0009e1f18794527b4ca
+f59734c38a813c39afc56c1821ed2f73
+
+Mole x
+96bdbfec4bbf74fd4eabb81031cefccb
+e4edb492554acb90a3aa7ecb58a21ab9
+ebf64114b688b049c77f223f3adf38d3
+1e6485eedd089e44926523c612f62bad
+
+monsoon
+fed964b87b59054b2e234964aeb5de28 -
+                                 - hybrid: None
+7fdd8ccc6b5a8a773f0ebe2e81956ffc
+
+overload
+2eee286587f76a09f34f345fd4e00113
+c11c83a7d9e7fa0efaf90cebd49fbd0b
+
+Philadelphia
+8d7061d6494ca01961bf5d3cf353fd1f
+b0ef242f44a3bc8fc0c574c03f4d6320 -
+                                 - hybrid: www.google.de/...								 
+
+photominer
+6b422988b8b66e54e68f110c64914744 -
+                                 - hybrid: hrtests.ru
+e9ffdb716af3d355b25096a8ed4de8ef -
+                                 - hybrid: None
+fbbcf1e9501234d6661a0c9ae6dc01c9 -
+                                 - hybrid: stafftest.ru
+
+Ponmocup
+//
+
+RedLeaves
+b3139b26a2dabb9b6e728884d8fa8b33 -
+                                 - hybrid: 67.205.132.17:443/...
+01468a69ca8676b51a357676e0856c88
+
+Shishiga
+aec4c15b91d525e965ed3a2c6a779b76
+3a46d46f7d4c312afa182f43da3ff2d8
+32c13b509b9df987a6ca0700e7e9a654
+
+spyeye2
+210ac7d65bc09c948670fa57daa89113
+15d4010198cf049a47d4d8dd10a984af
+53a1662a7e3a14acc00a6d8e2b2b5b8d
+
+telegraaf
+a5df4884c44a4c812a4cc7a1c133238e
+0e12760912ffeb6febe1bb790169eb35
+
+wild
+6292f68f7deb3d7bb946096b9ecd8f45
+b4a044835a6a1464c556042db484b977
+
+Zuponcic
+caa4cbe00c30458198a05a0cddddc1cd
+eb958d6e68cc635df16ade31227f0608
+
+
+
+
+
+# ---------------------------------------------------------------------------
+# APT
+
+# ---------------------------------------------------------------------------
+# 中文
+
+
+解包分析攻击越南机场和其它组织机构的间谍程序
+28F151AE7F673C0CF369150E0D44E415
+321A2F0ABE47977D5C8663BD7A7C7D28
+884D46C01C762AD6DDD2759FD921BF71
+
+逆向浅析常见病毒的注入方式系列之一-----WriteProcessMemory
+FF5E1F27193CE51EEC318714EF038BEF
+
+这个恶意软件“奇葩”的反虚拟机技巧
+C6315B1AAFE2B550AABFFF81E6AD886B
+
+
+
+# ---------------------------------------------------------------------------

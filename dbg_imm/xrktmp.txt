@@ -1,0 +1,574 @@
+# -------------------------------------------------------------------------
+# itd thing
+# -------------------------------------------------------------------------
+
+def itd_list_check_contains(k, kk, v1, v2=None, v3=None):
+    """
+        itd list check contains
+
+        self.__itd_list__ = {"itd_strs": {"is_care": False, "items": [], "is_pause": False},
+                             "itd_file_names": {"is_care": False, "items": [], "is_pause": False},
+                             "itd_lib_names": {"is_care": False, "items": [], "is_pause": False},
+                             "itd_reg_names": {"is_care": False, "items": ["Run"], "is_pause": False},
+                             "itd_mm_sizes": {"is_care": False, "items": [], "is_pause": False}}
+
+        @return: TUPLE: is_contains, is_pause
+    """
+    k_itd_list = k.get_itd_list()
+    if kk in k_itd_list:
+        kkx = k_itd_list[kk]
+        if kkx["is_pause"]:
+            xrkutil.pause()
+        if kkx["is_care"]:
+            items = kkx["items"]
+            if len(items) != 0:
+                if type(items[0]) == str:
+                    return xrkutil.x_contains(items, v1=v1, v2=v2, v3=v3), kkx["is_pause"]
+                elif type(items[0]) == int or type(items[0]) == long:
+                    return xrkutil.x_contains_int(items, v1=v1, v2=v2, v3=v3), kkx["is_pause"]
+                else:
+                    xrklog.error("invalid kk item type: %s" % type(items[0]))
+                    assert False
+                    return False, False
+    else:
+        xrklog.error("invalid kk: %s" % kk)
+    return False, False
+
+
+def __itd_str_check(k, api_name, str1, str2=None, str3=None):
+    """
+        call from param summary
+    """
+    is_contains, is_pause = itd_list_check_contains(k, "itd_strs", v1=str1, v2=str2, v3=str3)
+    if is_contains:
+        xrklog.high("itd str appears: %s - %s" % (api_name, xrklog.format_params(str1, str2, str3)))
+        xrkcstk.pt_cstk(pt_args=True, pt_addr=True, pt_called_from=True)
+        if is_pause:
+            xrkutil.pause()
+
+
+def __itd_file_name_check(k, api_name, file1, file2=None, file3=None):
+    """
+        call from param summary
+    """
+    is_contains, is_pause = itd_list_check_contains(k, "itd_file_names", v1=file1, v2=file2, v3=file3)
+    if is_contains:
+        xrklog.high("itd file name appears: %s - %s" % (api_name, xrklog.format_params(file1, file2, file3)))
+        xrkcstk.pt_cstk(pt_args=True, pt_addr=True, pt_called_from=True)
+        if is_pause:
+            xrkutil.pause()
+
+
+def __itd_reg_data_check(k, api_name, reg1, reg2=None, reg3=None):
+    """
+        call from param summary
+    """
+    is_contains, is_pause = itd_list_check_contains(k, "itd_reg_names", v1=reg1, v2=reg2, v3=reg3)
+    if is_contains:
+        xrklog.high("itd reg name appears: %s - %s" % (api_name, xrklog.format_params(reg1, reg2, reg3)))
+        xrkcstk.pt_cstk(pt_args=True, pt_addr=True, pt_called_from=True)
+        if is_pause:
+            xrkutil.pause()
+
+
+def itd_lib_name_check(k, api_name, lib1, lib2=None, lib3=None):
+    """
+        call from param summary
+    """
+    is_contains, is_pause = itd_list_check_contains(k, "itd_lib_names", v1=lib1, v2=lib2, v3=lib3)
+    if is_contains:
+        xrklog.high("itd lib name appears: %s - %s" % (api_name, xrklog.format_params(lib1, lib2, lib3)))
+        xrkcstk.pt_cstk(pt_args=True, pt_addr=True, pt_called_from=True)
+        if is_pause:
+            xrkutil.pause()
+
+
+def itd_mm_size_check(k, api_name, size1, size2=None, size3=None):
+    """
+        call from hook_run
+    """
+    is_contains, is_pause = itd_list_check_contains(k, "itd_mm_sizes", v1=size1, v2=size2, v3=size3)
+    if is_contains:
+        xrklog.high("itd mm size appears: %s - %s" % (api_name, xrklog.format_params(size1, size2, size3)))
+        xrkcstk.pt_cstk(pt_args=True, pt_addr=True, pt_called_from=True)
+        if is_pause:
+            xrkutil.pause()
+
+
+# ---------------------------------------------------------------------------
+# itd list
+# ---------------------------------------------------------------------------
+
+
+def itd_list_add(kk, values):
+    """
+        itd list add
+    """
+    k = get_k_config_overall()
+    k_itd_list = k.get_itd_list()
+    if kk in k_itd_list:
+        k_itd_list[kk]["items"], is_changed = xrkutil.merge_list(k_itd_list[kk]["items"], values)
+        if is_changed:
+            k.update_itd_list(k_itd_list)
+        return True
+    else:
+        xrklog.error("invalid kk: %s" % kk)
+        return False
+
+
+def itd_list_remove(kk, values):
+    """
+        itd list add
+    """
+    k = get_k_config_overall()
+    k_itd_list = k.get_itd_list()
+    if kk in k_itd_list:
+        k_itd_list[kk]["items"], is_changed = xrkutil.exclude_list(k_itd_list[kk]["items"], values)
+        if is_changed:
+            k.update_itd_list(k_itd_list)
+        return True
+    else:
+        xrklog.error("invalid kk: %s" % kk)
+        return False
+
+
+def itd_list_clear(kk):
+    """
+        itd list clear
+    """
+    k = get_k_config_overall()
+    k_itd_list = k.get_itd_list()
+    if kk in k_itd_list:
+        k_itd_list[kk]["items"] = []
+        k.update_itd_list(k_itd_list)
+        return True
+    else:
+        xrklog.error("invalid kk: %s" % kk)
+        return False
+
+
+def __operate_knowledge_itd(opts):
+    """
+        operate knowledge on itd
+            {"itd_strs": {"is_care": False, "items": [], "is_pause": False},
+             "itd_file_names": {"is_care": False, "items": [], "is_pause": False},
+             "itd_lib_names": {"is_care": False, "items": [], "is_pause": False},
+             "itd_reg_names": {"is_care": False, "items": ["Run"], "is_pause": False},
+             "itd_mm_sizes": {"is_care": False, "items": [], "is_pause": False}}
+
+            --kk str/file/lib/reg/mm_size
+
+            -a add
+            -a remove
+            -a clear
+
+            --attr is_care/is_pause --true/false
+    """
+    __check_knowledge_common("itd", opts)
+
+    """
+    assert opts.kk is not None
+    if opts.action is not None:
+        k = get_k_config_overall()
+        k_itd = k.get_itd_list()
+        if opts.kk == "str":
+            k_itd_str = k_itd["itd_strs"]
+            if opts.action == "add":
+                k_itd_str["items"] = xrkutil.add_to_set(k_itd_str["items"], opts.value_int)[0]
+            elif opts.action == "remove":
+                k_itd_str["items"] = k_itd_str["items"].remove(opts.value_int)
+            elif opts.action == "clear":
+                pass
+            k.update_itd_list({"itd_strs": k_itd_str})
+        elif opts.kk == "file":
+            pass
+        elif opts.kk == "lib":
+            pass
+        elif opts.kk == "reg":
+            pass
+        elif opts.kk == "mm_size":
+            pass
+        else:
+            pass
+    """
+
+
+# -------------------------------------------------------------------------
+# tid thing
+# -------------------------------------------------------------------------
+
+
+def __check_tid(k, api_name, regs):
+    """
+        if pid pass, return True, otherwise False
+    """
+    k_tid = k.get_tid()
+    cur_t = threading.current_thread()
+    if cur_t.name == "MainThread":
+        if k_tid["is_include_main_thread"]:
+            return True
+        if k_tid["is_exclude_main_thread"]:
+            return False
+    else:
+        tid = threading.current_thread().ident
+        if k_tid["is_only_care_include_tids"]:
+            return tid in k_tid["include_tids"]
+        if k_tid["is_only_care_exclude_tids"]:
+            return tid not in k_tid["exclude_tids"]
+    return True
+
+
+def tids_add_include(tids):
+    """
+        !+ only include_tids will be ok
+    """
+    tids = xrkutil.obj_inst_or_list_to_list(tids)
+    k = get_k_config_overall()
+    k.update_tid({"is_only_care_include_tids": True,
+                  "include_tids": xrkutil.merge_list(k.get_tid()["include_tids"], tids)[0],
+                  "is_only_care_exclude_tids": False,
+                  "exclude_tids": []})
+
+
+def tids_remove_include(tids):
+    """
+        !+ only include_tids will be ok
+    """
+    tids = xrkutil.obj_inst_or_list_to_list(tids)
+    k = get_k_config_overall()
+    k.update_tid({"is_only_care_include_tids": True,
+                  "include_tids": xrkutil.exclude_list(k.get_tid()["include_tids"], tids)[0],
+                  "is_only_care_exclude_tids": False,
+                  "exclude_tids": []})
+
+
+def tids_clear_include(tids):
+    """
+        x
+    """
+    k = get_k_config_overall()
+    k.update_tid({"is_only_care_include_tids": False,
+                  "include_tids": []})
+
+
+def tids_add_exclude(tids):
+    """
+        !+ only exclude_tids will be not ok
+    """
+    tids = xrkutil.obj_inst_or_list_to_list(tids)
+    k = get_k_config_overall()
+    k.update_tid({"is_only_care_include_tids": False,
+                  "include_tids": [],
+                  "is_only_care_exclude_tids": True,
+                  "exclude_tids": xrkutil.merge_list(k.get_tid()["exclude_tids"], tids)[0]})
+
+
+def tids_remove_exclude(tids):
+    """
+        !+ only exclude_tids will be not ok
+    """
+    tids = xrkutil.obj_inst_or_list_to_list(tids)
+    k = get_k_config_overall()
+    k.update_tid({"is_only_care_include_tids": False,
+                  "include_tids": [],
+                  "is_only_care_exclude_tids": True,
+                  "exclude_tids": xrkutil.exclude_list(k.get_tid()["exclude_tids"], tids)})
+
+
+def tids_clear_exclude(tids):
+    """
+        x
+    """
+    k = get_k_config_overall()
+    k.update_tid({"is_only_care_exclude_tids": False,
+                  "exclude_tids": []})
+
+
+def tids_clear():
+    tids_clear_include()
+    tids_clear_exclude()
+
+
+def __operate_knowledge_tid(opts):
+    """
+        operate knowledge on tid
+
+            -a clear
+            --kk include/exclude -a add/remove --vi 111,222
+            --kk include/exclude -a add/remove --vh 0x111,0x222
+            --kk include/exclude -a clear
+    """
+    __check_knowledge_common("tid", opts)
+
+    if opts.action is not None:
+        action = opts.action
+        if action == "clear" and opts.kk is None:
+            pass
+        elif opts.kk is not None:
+            # kk = opts.kk
+            if action == "add":
+                pass
+            elif action == "remove":
+                pass
+            else:
+                pass
+        else:
+            # xrklog.error("invalid action: %s" % opts.action)
+            pass
+    elif opts.usage:
+        # already printed usage
+        pass
+    else:
+        """
+        assert opts.attribute is not None
+        assert opts.value_bool is not None
+        if check_k_config_tids_has_key(opts.attribute):
+            may_init_update_k_config_tids({opts.attribute: opts.value_bool})
+        else:
+            pass
+        """
+        pass
+
+
+# -------------------------------------------------------------------------
+# summary
+# -------------------------------------------------------------------------
+
+
+def __add_call_summary(k, api_name, regs, is_ok_cstk=True, is_ok_tid=True):
+    """
+        add call cnt, and call stack
+    """
+    k_call_summary = k.get_call_summary()
+    kk = api_name in k_call_summary and k_call_summary[api_name] or call_summary_api_record(api_name)
+    kk.add_record(is_ok_cstk=is_ok_cstk, is_ok_tid=is_ok_tid)
+    k.update_call_summary({api_name: kk})
+
+
+def __add_param_summary(k, api_name, param_pairs, is_ok_cstk=True, is_ok_tid=True):
+    """
+        add param summary
+    """
+    if param_pairs is None or len(param_pairs) == 0:
+        return
+
+    k_param_summary = k.get_param_summary()
+    is_changed = False
+    for (d, x) in param_pairs.items():
+
+        if x is not None:
+            is_changed_tmp = False
+            if type(x) == str:
+                k_param_summary["strs"], is_changed_tmp = xrkutil.add_to_set(k_param_summary["strs"], x)
+                # check itd string
+                __itd_str_check(k, api_name, x)
+
+            if "svc" in d:
+                assert type(x) == str
+                k_param_summary["svcs"], is_changed_tmp = xrkutil.add_to_set(k_param_summary["svcs"], x)
+
+            elif "io_ctrl_code" in d:
+                assert type(x) == int or type(x) == long
+                k_param_summary["io_ctrl_codes"], is_changed_tmp = xrkutil.add_to_set(k_param_summary["io_ctrl_codes"], x)
+
+            elif "file" in d or "dir" in d or "path" in d:
+                assert type(x) == str
+                k_param_summary["file_dirs"], is_changed_tmp = xrkutil.add_to_set(k_param_summary["file_dirs"], x)
+                # check itd file name
+                __itd_file_name_check(k, api_name, x)
+
+            elif "mutex" in d:
+                assert type(x) == str
+                k_param_summary["mutexs"], is_changed_tmp = xrkutil.add_to_set(k_param_summary["mutexs"], x)
+
+            elif "reg" in d:
+                assert type(x) == str
+                k_param_summary["reg_sucks"], is_changed_tmp = xrkutil.add_to_set(k_param_summary["reg_sucks"], x)
+                # itd reg data check
+                __itd_reg_data_check(k, api_name, x)
+
+            elif "ws2_32" in d:
+                assert type(x) == str
+                k_param_summary["ws2_32s"], is_changed_tmp = xrkutil.add_to_set(k_param_summary["ws2_32s"], x)
+
+            elif "internet" in d:
+                assert type(x) == str
+                k_param_summary["internets"], is_changed_tmp = xrkutil.add_to_set(k_param_summary["internets"], x)
+
+            elif "window" in d:
+                assert type(x) == str
+                k_param_summary["windows"], is_changed_tmp = xrkutil.add_to_set(k_param_summary["windows"], x)
+
+            elif ("cbk" in d or "proc" in d) and type(x) == int or type(x) == long:
+                k_param_summary["cbk_procs"], is_changed_tmp = xrkutil.add_to_set(k_param_summary["cbk_procs"], x)
+
+            elif "send_len" in d:
+                assert type(x) == int or type(x) == long
+                k_param_summary["send_lens"], is_changed_tmp = xrkutil.add_to_set(k_param_summary["send_lens"], x)
+
+            elif "mm_size" in d:
+                assert type(x) == int or type(x) == long
+                k_param_summary["alloc_sizes"], is_changed_tmp = xrkutil.add_to_set(k_param_summary["alloc_sizes"], x)
+                itd_mm_size_check(k, api_name, x)
+
+            else:
+                pass
+            if is_changed_tmp:
+                is_changed = True
+
+    if is_changed:
+        k.update_param_summary(k_param_summary)
+
+
+def call_summary_pt_names():
+    """
+        print api call summary as strs, user can copy this, help debug
+
+        call summary:
+        "LoadLibraryExW",
+        "GetProcAddress",
+    """
+    k = get_k_config_overall().get_call_summary()
+    lines = []
+    lines.append("call summary:")
+    for (d, x) in k.items():
+        lines.append("\"%s\"," % d)
+    xrklog.infos(lines, add_prefix=False)
+
+
+def __operate_knowledge_param_sum(opts):
+    """
+        operate knowledge on param_sum
+
+            -a clear
+            -a save
+    """
+    __check_knowledge_common("param_sum", opts)
+    if opts.action is not None:
+        if opts.action == "clear":
+            get_k_config_overall().dft_param_summary()
+            xrklog.info("param_sum clear finish")
+        elif opts.action == "save":
+            work_dir = get_work_dir()
+            file_name = ""
+            if opts.file is not None:
+                # use default save action
+                file_name = os.path.join(work_dir, "param_sum_%s.txt" % (xrkutil.time_rand_str()))
+            else:
+                # save to specified file
+                file_name = os.path.join(work_dir, "%s_%s.txt" % (opts.file, xrkutil.time_rand_str()))
+            only_ok = (opts.v1 is not None and opts.v1.lower() == "true") and True or False
+            xrkutil.write_to_new_file(file_name, get_k_config_overall().get_param_summary_attr_details_desc(only_ok=only_ok))
+            xrklog.high("call summary write to file: %s" % (file_name))
+
+
+def __operate_knowledge_call_summary(opts):
+    """
+        operate knowledge on call_sum
+
+            -a clear
+            -a save
+    """
+    __check_knowledge_common("call_sum", opts)
+    if opts.action is not None:
+        if opts.action == "clear":
+            get_k_config_overall().dft_call_summary()
+            xrklog.info("call_sum clear finish")
+        elif opts.action == "save":
+            work_dir = get_work_dir()
+            file_name = ""
+            if opts.file is not None:
+                # use default save action
+                file_name = os.path.join(work_dir, "call_sum_%s.txt" % (xrkutil.time_rand_str()))
+            else:
+                # save to specified file
+                file_name = os.path.join(work_dir, "%s_%s.txt" % (opts.file, xrkutil.time_rand_str()))
+            only_ok = (opts.v1 is not None and opts.v1.lower() == "true") and True or False
+            xrkutil.write_to_new_file(file_name, get_k_config_overall().get_call_summary_attr_details_desc(only_ok=only_ok))
+            xrklog.high("call summary write to file: %s" % (file_name))
+
+
+# ---------------------------------------------------------------------------
+# md_names
+# ---------------------------------------------------------------------------
+
+
+def md_names_add(names):
+    """
+        add names
+    """
+    names = xrkutil.obj_inst_or_list_to_list(names)
+    k = get_k_config_overall()
+    new_list, is_changed = xrkutil.merge_list(k.get_md_names()["md_names"], names)
+    if is_changed:
+        k.update()
+
+
+def md_names_remove(names):
+    """
+        remove names
+    """
+    names = xrkutil.obj_inst_or_list_to_list(names)
+    k = get_k_config_overall()
+    new_list, is_changed = xrkutil.exclude_list(k.get_md_names()["md_names"], names)
+    if is_changed:
+        k.update()
+
+
+def md_names_clear():
+    """
+        clear names
+    """
+    k = get_k_config_overall()
+    k.get_md_names()["md_names"] = []
+    k.update()
+
+
+def __operate_knowledge_md_names(opts):
+    """
+        operate knowledge on md_names
+
+            -a add --vs 111[,222]
+            -a remove --vs 111[,222]
+            -a clear
+    """
+    __check_knowledge_common("md_names", opts)
+
+    if opts.action is not None:
+        action = opts.action
+
+        if action == "add":
+            names = opts.value_str.split(",")
+            md_names_add(names)
+            xrklog.info("md_names add finish: %s" % names)
+
+        elif action == "remove":
+            names = opts.value_str.split(",")
+            md_names_remove(names)
+            xrklog.info("md_names remove finish: %s" % names)
+
+        elif action == "clear":
+            md_names_clear()
+            xrklog.info("md_names clear finish")
+
+        else:
+            # xrklog.error("invalid action: %s" % opts.action)
+            pass
+    elif opts.usage:
+        # already printed usage
+        pass
+    else:
+        """
+        assert opts.attribute is not None
+        assert opts.value_bool is not None
+        if check_k_config_md_names_has_key(opts.attribute):
+            may_init_update_k_config_md_names({opts.attribute: opts.value_bool})
+        else:
+            pass
+        """
+        pass
+
+
+# -------------------------------------------------------------------------
+# END OF FILE
+# -------------------------------------------------------------------------

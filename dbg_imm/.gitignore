@@ -1,0 +1,4 @@
+.svn
+*.pyd
+*.c
+build

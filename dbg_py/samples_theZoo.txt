@@ -1,0 +1,611 @@
+192.168.1.10 --> C0 A8 01 0A
+DNSChef - DNS proxy for Penetration Testers and Malware Analysts 
+# ---------------------------------------------------------------------------
+# ---------------------------------------------------------------------------
+
+
+
+# ---------------------------------------------------------------------------
+
+-- Trojan.Loadmoney
+-- 李江澜
+6C42954257EF80CC72266400236EA63C - OK
+                                 - GCC
+								 - 加载PE
+								 - 有签名
+	40DBFB6C8CC1A2D74B1450DC6398A0BD - 
+	                                 - C++ - DLL
+									 - 导出函数 StartDL
+									 - FreeConsole/WriteConsole
+									 - 继续跟进，不难，有不少 Class
+		964695959E486B8A2308A44425A77076 - 
+		                                 - 资源
+										 - 只是用于执行什么东西
+
+-- Waski.Upatre
+-- 李江澜
+7A1F26753D6E70076F15149FEFFBE233 - NO - 不停止，杀不掉
+                                 - Unknown
+								 - hybrid: yumproject.com
+								 - api: CryptStringToBinaryA
+								 - 只是创建新进程并用下面的PE替换
+	743E02749D296440B177963E10207B29 - OK
+	                                 - Unknown
+									 - 功能缺失 - 拷贝到新目录执行，貌似比较的时候考虑大小写了
+									 - 不能F5，内容不算多，慢慢跟吧
+									 - 继续跟进
+
+//4
+
+-- ZeusBankingVersion_26Nov2013
+-- 李江澜
+EA039A854D20D7734C5ADD48F1A51C34 - NO - 不停止，可强杀
+                                 - C++
+								 - hybrid: j.maxmind.com
+								 - 只是内存加载，不过内存加载过程很复杂
+	51B14325D68C67C559AA8E1889662E89 - OK
+	                                 - 自修改
+									 - 使用一大堆Zw函数
+									 - WSAxxx
+									 - 这就比较高端了
+									 - 继续跟进，内容不多，但不会简单
+
+
+-- Win32.Avatar
+32D6644C5EA66E390070D3DC3401E54B - NO - 不退出，可强杀
+                                 - C/C++
+								 - hybrid: None
+								 - 有价值
+								 - 这种加载PE的方式非常屌!!!
+	7E61D4CC504D457924B3EEE2FCC58A6E - NO
+	                                 - C++ - 驱动
+		C812E67C10EC17F7D94966E154664100 -
+		                                 - C++ - DLL
+										 - 一堆Nt系列函数
+										 - DllEntryPoint的第3个参数可能不是默认，而是自定义的
+										 - 继续跟进 - 最好有工具辅助，手动比较费劲，要分析出很大的结构
+		E175BBECF2FD0817E6CE4031EA01F7E2 -
+		                                 - C++ - DLL
+										 - 跟上面那个不少函数重复，主要功能应该是注入
+
+-- Trojan.Asprox
+
+D062D420E2AC73B0211AFE30063807FA - NO - 不退出，不可强杀
+								 - UPX - C++
+								 - 在堆上用 RtlAllocateHeap 申请内存，再覆盖自身
+								 - 貌似: RtlAllocateHeap 申请到的内存都在 17xxxx
+	24E6BD7421F32E817FA6689EF69CC698 - NO - 不退出，不可强杀
+	                                 - patch之后，不退出，可强杀
+	                                 - 自修改
+									 - 把自己搞到新进程，但换了个入口
+									 - 
+		604E5E10C43BE9F517F92D3A9C6C5774 -
+		                                 - C++ - DLL
+										 - 导出函数 Work
+										 - 继续跟进 - 该调试了
+										 
+0D655ECB0B27564685114E1D2E598627 - 跟上边释放的DLL基本一致
+
+//2
+
+
+# ---------------------------------------------------------------------------
+Android.Spy.49_iBanking_Feb2014
+Android.VikingHorde
+AndroRat_6Dec2013
+
+
+Artemis
+//大文件
+
+Backdoor.MSIL.Tyupkin
+//多文件
+
+-- BlackEnergy2.1
+9219E2CFCC64CCDE2D8DE507538B9991 - 
+                                 - 文件损坏
+
+
+Careto_Feb2014
+//多文件
+
+CryptoLocker_10Sep2013
+CryptoLocker_20Nov2013
+CryptoLocker_22Jan2014
+
+
+-- Dino
+AB2E178C77F6DF518024A71D05E98451 - 
+                                 - 未知的文件格式
+								 - 应该是dump出来的
+								 -
+
+Dropper.Taleret
+//错误的解压密码
+Duqu2
+//多文件
+Dyre
+//多文件
+
+EquationGroup
+EquationGroup.DoubleFantasy
+EquationGroup.EquationDrug
+EquationGroup.EquationLaser
+EquationGroup.Fanny
+EquationGroup.GrayFish
+EquationGroup.GROK
+EquationGroup.TripleFantasy
+
+IllusionBot_May2007
+//多文件
+
+Kelihos
+//多文件
+
+-- Keylogger.Ardamax
+E33AF9E602CBB7AC3634C2608150DD18 - ?? 
+                                 - C++
+								 - hybrid: smtp.mail.yahoo.com
+								 - 功能缺失 - 加载自己的DLL
+								 -
+
+
+KRBanker
+//多文件
+
+
+Linux.Chapros.A
+Linux.Encoder.1
+Linux.Wirenet
+
+
+-- LoveLetter
+8E2C097CA623CA32723D57968B9D2525 - 
+                                 - VBS
+
+
+
+-- Net-Worm.Win32.Kido
+566119E4E5F4BDA545B3B8AF33C23698 - 
+                                 - C++ DLL
+								 -
+
+
+Neurevt.1.7.0.1
+//多文件
+
+
+-- Nitlove
+B3962F61A4819593233AA5893421C4D1 - 
+                                 - C++
+								 - hybrid: None
+								 -
+
+
+-- Nivdort
+ED2CD14A28FF2D00A5CEFCF6A074AF8D - 
+                                 - C++
+								 - hybrid: southblack.net/...
+								 -
+
+
+njRAT-v0.6.4
+//多文件
+
+
+OSX.Backdoor.iWorm
+OSX.Wirenet
+OSX.XAgent
+
+
+-- PlugX
+42FBA80F105AA53DFBF50AEBA2D73CAE - 
+                                 - RTF
+//8 - 衍生物??
+
+
+
+
+-- PotaoExpress
+- 1stVersion
+0C7183D761F15772B7E9C788BE601D29 -
+                                 - UPX - 自修改
+								 - hybrid: None
+								 -
+//9
+- DebugVersion
+5199FCD031987834ED3121FB316F4970 - 
+                                 - C++
+								 - hybrid: None
+								 -
+//2
+- Droppersfrompostalsites
+- Dropperswdecoy
+- FakeTrueCryptextracted exe
+- FakeTrueCryptSetup
+- OtherDroppers
+- USBSpreaders
+
+
+
+
+-- Poweliks
+0181850239CD26B8FB8B72AFB0E95EAC - 
+                                 - C++
+								 - hybrid: 178.89.159.34:80
+								 -
+
+//6 - 衍生物?
+
+
+-- Proteus
+49FD4020BF4D7BD23956EA892E6860E9 -
+                                 - .NET - Vuxowalotalae - 混淆 - de4dot效果不明显
+								 - hybrid: proteus-network.ml
+								 - 需要手动重命名
+
+
+
+Ransomware.Cryptowall
+Ransomware.Jigsaw
+Ransomware.Locky
+Ransomware.Mamba
+Ransomware.Matsnu
+Ransomware.Petya
+Ransomware.Radamant
+Ransomware.Rex
+Ransomware.Satana
+Ransomware.TeslaCrypt
+
+
+-- Ransomware.Vipasana
+2AEA3B217E6A3D08EF684594192CAFC8 - 
+                                 - Delphi
+								 - hybrid: None
+								 -
+								 
+//2
+
+
+-- Rombertik
+D2B5A2547E2246694148ECE3CF74DE0E - 
+                                 - 压缩包
+								 -
+								 
+EFC9040F587A5DD9E1DE4707EC1ED8C5 - 
+                                 - C++ -
+								 - hybrid: None
+
+
+-- Shamoon
+B14299FD4D1CBFB4CC7486D978398214 - 
+                                 - C++
+								 - hybrid: None
+								 -
+
+//1
+
+
+-- Skywiper-A.Flame
+C9E00C9D94D1A790D5923B050B0BD741 - 
+                                 - DLL
+								 
+//2
+
+
+-- Somoto
+02E0B78E2876087F678F070ED60E4C30 - 
+                                 - NullSoft -
+								 - hybrid: d1x73t29gz9b9u.cloudfront.net/....
+								 -
+
+
+-- SpyEye
+2B8A408B56EAF3CE0198C9D1D8A75EC0 - 
+                                 - UPX - Unknown
+								 - hybrid: None
+								 -
+
+//8
+
+
+Surtr
+//一堆文件
+
+
+SymbOS.Lasco
+//多文件
+
+
+Trojan.AlienSpy
+//.jar
+
+
+-- Trojan.Bladabindi
+5A559B6D223C79F3736DC52794636CFD - 
+                                 - .NET - max - 混淆
+								 - 需要手动去混淆
+
+
+-- Trojan.Destover-Sony
+E904BF93403C0FB08B9683A9E858C73E - 
+                                 - C++
+								 - hybrid: crl4.digicert.com/...
+								 - 邱分析过这个，我就不分析了
+
+
+-- Trojan.Dropper.Gen
+F88E9B7446A6E57943728CCE3CC70720 - 
+                                 - NullSoft
+								 - hybrid: udpwt.quzhao.com/...
+								 - 有签名
+								 - 主体是3个PE文件
+	98955512DD3A0AB0E8FB882A9362FCB5 - OK
+	                                 - Delphi?
+									 - 有窗口
+									 - 有工具再说吧
+	52DA7522527CC0EB0F648C94CF9BA178 - NO - 不停止
+	                                 - Dlephi?
+									 - 有工具再说吧
+	84A64ECAB13E9EA3FFEF1E248C55D0A2 -
+	                                 - Delphi?
+									 - 64位
+
+
+
+-- Trojan.NSIS.Win32
+663FBF2A248971EA69C6234480A4BDCB - OK
+                                 - NullSoft -
+								 - hybrid: None
+								 - 运行，衍生物都没放出来
+								 - 解压缩的也不对
+								 - hybrid也没搞定衍生物
+
+
+-- Trojan.Shylock.Skype
+8FBEB78B06985C3188562E2F1B82D57D - 
+                                 - C++ - DLL
+								 - hybrid: None
+								 - 需要依靠外部调用其导出函数Init()/Start()，不然无法运行
+
+
+-- Trojan.Win32.Bechiro.BCD
+0D06681F63F3026260AA1E15D86520A0 - OK
+                                 - MPRESS - C++
+								 - hybrid: www.google-analytics.com/...
+								 - 弹窗提示需要IE7
+								 - 看样子像个安装包
+								 - 先过
+
+
+-- Variant.Kazy
+EBEFEE9DE7D429FE00593A1F6203CD6A - NO - 错误的退出调用栈
+                                 - UPX - 自修改
+								 - hybrid: None
+								 - 有报告，但是不是英文
+								 - 资源有3个PE - 从资源释放衍生物并执行								 
+	6FB92D25078BFFF1C215229067B5BEAA - 
+	                                 - 自修改 - DLL
+									 - 2个导出函数 rundll32.exe 调用的是 InstallSvr3
+									 - 导入表无网络函数
+									 - 先不管
+	B07C77A66D87F38F5EB4EAC44B5EFEA3 - 
+	                                 - 自修改 - DLL - 可以F5 - 所以是ExeInfoPE识别错误
+									 - 2个导出函数 - rundll32.exe 调用的是 InstallSvr1
+									 - 导入表有网络函数
+									 - 还有个VMP的区段呢
+									 - 跑到VMP区段里去了 
+									 - 先过
+	6B51354FB017488210E58687462EE83E - 
+	                                 - C++ - Dll
+									 - N多导出函数 - rundll32.exe 调用的是 InstallSvr0
+									 - 伪装成输入法的节奏
+									 - 导入表无网络函数
+									 - 先过
+
+
+
+
+-- Win32.Boaxxe.BB
+BEA95BEBEC95E0893A845F62E832D7CF - NO - 错误的退出调用栈
+                                 - NullSoft - 2个文件
+								 - hybrid: None
+								 -
+	0873780720FD754EAF235D73916ADB56 -
+	                                 - VB 
+									 - 代码啥都没有啊
+									 - 功能是一点儿都不少
+									 - 注册表写入了6K的binary，写了自启动
+									 - VB先过
+
+-- Win32.Caphaw.Shylock
+E63FEAD91FE788DAC57601D2C77713F9 - NO
+                                 - C - 驱动
+								 
+CA0403EA24FE2A7771B99CEA55826C9B - OK
+                                 - C++
+								 - hybrid: None
+								 - 加载PE
+	8240431F3B5C4DDD0FF85EBF36235AFA - 
+	                                 - C++
+									 - 没特别恶意的行为，莫非是条件没满足？
+
+
+-- Win32.Carberp
+11BBA9B2333559B727CAF22896092217 - 
+                                 - C/C++
+								 - hybrid: hillaryklinton.com
+								 - 加载PE
+	9C756769A52FA7B35AA31D66A13E482E - OK
+	                                 - C++
+									 - 第1个VirtualAlloc的返回地址很熟悉，而且API的调用方式也很熟悉
+									 - 应该是重复了
+									 
+
+
+-- Win32.Cridex
+ACDD4C2A377933D89139B5EE6EEFC464 - NO - 错误的退出调用栈
+                                 - UPX - Unknown
+								 - hybrid: None
+								 - 脱壳的不能运行
+								 - 貌似也是通过retn来调用API的
+								 - 覆盖自身的货
+	D737CD29B0CC099BFA0F1850BEB9B562 - NO - 错误的退出调用栈
+	                                 - Unknown
+									 - 这导入表竟然是TMD空的... - 把自己注入到别的进程中，自己又不需要导入表，不是正好么
+									 - 有价值
+									 - 因为注入的关系，很难调试注入的代码
+
+
+-- Win32.Emotet
+8BAA9B809B591A11AF423824F4D9726A - 
+                                 - VB
+								 - hybrid: None
+								 - 代码无明显内容，运行异常
+								 - PASS
+
+
+
+-- Win32.Hupigon
+8F90057AB244BD8B612CD09F566EAC0C - NO - 错误的退出调用栈
+                                 - 自修改 
+								 - Delphi
+								 - hybrid: yutao318525.3322.org
+								 - 东西太多，先过
+
+
+
+-- Win32.Narilam
+8E63C306E95843ECCAB53DAD31B3A98B - OK
+                                 - Borland C++
+								 - hybrid: None
+								 - Not Good....
+
+-- Win32.OnionDuke.B
+C8EB6040FD02D77660D19057A38FF769 - 
+                                 - C++ - DLL
+
+
+-- Win32.Reveton.Y
+8334D2692AA97076A5BD95A9D9FDFCD5 - NO
+                                 - UPolyX - DLL
+								 - hybrid: None
+
+
+
+-- Win32.Vobfus
+70F0B7BD55B91DE26F9ED6F1EF86B456 - 
+                                 - VB
+								 - hybrid: ns1.musicmixc.com/...
+								 - 大量代码
+								 - 无调试工具
+//3个VB
+
+-- Win32.Zurgop
+C1E5DAE72A51A7B7219346C4A360D867 - OK
+                                 - UPX - Unknown
+								 - hybrid: salex4.net
+								 - 脱壳的不能运行
+								 - 通过retn调用API
+								 - 堆执行 - 加载PE
+	D20CD7CCF979D36130944E942A6E2BD2 - OK
+	                                 - 自修改
+									 - APC注入 - 注入的模块找不到
+
+
+
+
+-- ZeroAccess
+A2611095F689FADFFD3068E0D4E3E7ED -
+                                 - 自修改
+								 - hybrid: j.maxmind.com
+								 -
+FE756584B159FD24DC4B6A572917354C - 
+                                 - C++
+								 - 上面dump??
+
+
+-- ZeroLocker
+BD0A3C308A6D3372817A474B7C653097 - 
+                                 - .NET - Task Manager - 混淆
+								 - hybrid: 5.199.171.47
+								 - 需要手动去混淆
+
+
+
+-- ZeusGameover_Feb2014
+B227E7C0D9995715F331592750D6EBC2 - NO - pydbg完全不行
+                                 - Delphi??
+								 - hybrid: None
+								 - PE头被干掉了，或者没能获取正确的主模块
+								 - 难度偏大
+7BC463A32D6C0FB888CD76CC07EE69B5 - 
+                                 - C++
+								 - hybrid: None
+								 -
+
+
+//2
+
+
+-- ZeusVM
+8A0C95BE8A40AE5419F7D97BB3E91B2B - 
+                                 - ASprotect
+								 - hybrid: None
+								 -
+
+
+
+# ---------------------------------------------------------------------------
+
+
+-- Trojan.Regin
+B505D65721BB2453D5039A389113B566 - 
+                                 - C++ - 驱动
+								 - hybrid: None
+2C8B9D2885543D7ADE3CAE98225E263B - 
+                                 - C++ - 驱动
+								 - hybrid: None
+
+//11
+
+
+Win32.Stuxnet.A.Duqu-C-Media
+C9A31EA148232B201FE7CB7DB5C75F5E - 
+                                 - 驱动
+								 
+
+-- Win32.Stuxnet.B.Duqu-Realtek
+CC1DB5360109DE3B857654297D262CA1 - 
+                                 - 驱动
+//3
+
+-- Rustock
+FDAFB3A14338B2B612C4E5C4F94B3677 - 
+                                 - C - 驱动
+								 -
+
+//5
+
+
+-- TrojanWin32.Duqu.Stuxnet
+C9A31EA148232B201FE7CB7DB5C75F5E - 
+                                 - C++ - 驱动
+								 - 跟震网的重了
+
+
+# ---------------------------------------------------------------------------
+
+Win32Dircrypt.Trojan.Ransom.ABZ
+//多文件
+
+
+
+
+-- Win32.Turla
+//6个DLL
+
+Trojan.Tapaoux
+//解压密码错误
+
+# ---------------------------------------------------------------------------

@@ -1,0 +1,33 @@
+﻿生成启动时间为 2016/5/14 6:03:28。
+     1>项目“E:\反汇编工具\IDA\idasdk68\plugins\AutoSetToLocalAnsiCodePage\AutoSetToLocalAnsiCodePage.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“.\Debug_X64\AutoSetToLocalAnsiCodePage.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\include /I"G:\CPP_BOOKS\DEV_PACKS\icu\icu4c-57_1-src\icu\include" /I"G:\Open_Code\enca-master\lib" /I"G:\Open_Code\libchardet-master\src" /I"G:\Open_Code\libchardet-master\include" /ZI /nologo /W3 /WX- /Od /Oy- /D __WIN32__ /D _DEBUG /D __NT__ /D __IDP__ /D MAXSTR=1024 /D WIN32 /D _WINDOWS /D _USRDLL /D __EA64__ /D __X64__ /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /Gz /TP /analyze- /errorReport:prompt STRINGS.CPP
+         STRINGS.CPP
+     1>e:\反汇编工具\ida\idasdk68\include\pro.h(2751): warning C4309: “=”: 截断常量值
+     1>e:\反汇编工具\ida\idasdk68\include\pro.h(2767): warning C4309: “=”: 截断常量值
+     1>e:\反汇编工具\ida\idasdk68\plugins\autosettolocalansicodepage\strings.cpp(384): warning C4244: “初始化”: 从“ea_t”转换到“size_t”，可能丢失数据
+       ManifestResourceCompile:
+         所有输出均为最新。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(E:\反汇编工具\IDA\idasdk68\plugins\AutoSetToLocalAnsiCodePage\.\Debug_X64\AutoSetToLocalAnsiCodePage.dll) 与 Linker 的 OutputFile 属性值(D:\Program Files (x86)\IDA 6.8\plugins\AutoSetToLocalAnsiCodePage.p64)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(991,5): warning MSB8012: TargetExt(.dll) 与 Linker 的 OutputFile 属性值(.p64)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Program Files (x86)\IDA 6.8/plugins/AutoSetToLocalAnsiCodePage.p64" /INCREMENTAL /NOLOGO /LIBPATH:..\..\lib\x86_win_vc_64 /LIBPATH:"G:\CPP_BOOKS\DEV_PACKS\icu\icu4c-57_1-src\icu\lib" ida.lib icuucd.lib icuind.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Debug_X64\AutoSetToLocalAnsiCodePage.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/AutoSetToLocalAnsiCodePage.pdb" /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\Debug/AutoSetToLocalAnsiCodePage.lib" /MACHINE:X86 /DLL .\Debug_X64\AutoSetToLocalAnsiCodePage.dll.embed.manifest.res
+         .\Debug/IdaReverseEngineeringCode.obj
+         .\Debug/STRINGS.obj /export:PLUGIN 
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\Debug_X64\AutoSetToLocalAnsiCodePage.dll.embed.manifest" /manifest .\Debug_X64\AutoSetToLocalAnsiCodePage.dll.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         AutoSetToLocalAnsiCodePage.vcxproj -> E:\反汇编工具\IDA\idasdk68\plugins\AutoSetToLocalAnsiCodePage\.\Debug_X64\AutoSetToLocalAnsiCodePage.dll
+       FinalizeBuildStatus:
+         正在删除文件“.\Debug_X64\AutoSetToLocalAnsiCodePage.unsuccessfulbuild”。
+         正在对“.\Debug_X64\AutoSetToLocalAnsiCodePage.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\反汇编工具\IDA\idasdk68\plugins\AutoSetToLocalAnsiCodePage\AutoSetToLocalAnsiCodePage.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.72
